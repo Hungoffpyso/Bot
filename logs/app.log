@@ -1,0 +1,1642 @@
+2026-07-31 13:10:22 | INFO     | ==================================================
+2026-07-31 13:10:22 | INFO     | Telegram Auto Message Scheduler khởi động
+2026-07-31 13:10:22 | INFO     | ==================================================
+2026-07-31 13:10:22 | INFO     | Đang tạo / kết nối Telegram client...
+2026-07-31 13:10:22 | INFO     | Connecting to 149.154.167.51:443/TcpFull...
+2026-07-31 13:10:22 | INFO     | Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-31 13:10:23 | INFO     | Chưa đăng nhập. Bắt đầu quá trình đăng nhập...
+2026-07-31 13:10:32 | INFO     | Phone migrated to 5
+2026-07-31 13:10:33 | INFO     | Reconnecting to new data center 5
+2026-07-31 13:10:33 | INFO     | Disconnecting from 149.154.167.51:443/TcpFull...
+2026-07-31 13:10:33 | INFO     | Disconnection from 149.154.167.51:443/TcpFull complete!
+2026-07-31 13:10:33 | INFO     | Connecting to 91.108.56.114:443/TcpFull...
+2026-07-31 13:10:35 | INFO     | Connection to 91.108.56.114:443/TcpFull complete!
+2026-07-31 13:11:07 | INFO     | Đăng nhập thành công. Session đã được lưu.
+2026-07-31 13:11:07 | INFO     | Đang chạy với tài khoản: ☠︎︎𝑯𝒖̛𝒏𝒈_𝑶𝒇𝒇𝒑𝒚𝒔𝒐♚ (@Hungoffpyso)
+2026-07-31 13:11:07 | INFO     | Bắt đầu scheduler | Bot: @tuongtacmxh36_bot | Interval: 24h
+2026-07-31 13:11:07 | INFO     | Nội dung: /daily
+2026-07-31 13:11:07 | INFO     | Đang gửi tin nhắn...
+2026-07-31 13:11:08 | INFO     | Đã gửi thành công tới @tuongtacmxh36_bot: /daily
+2026-07-31 13:11:08 | INFO     | Gửi thành công lúc 2026-07-31 13:11:08
+2026-07-31 13:11:08 | INFO     | Bắt đầu chờ 24 giờ đến lần gửi tiếp theo...
+2026-07-31 13:11:08 | INFO     | ⏳ Còn lại: 24h 00m 00s
+2026-07-31 13:12:08 | INFO     | ⏳ Còn lại: 23h 59m 00s
+2026-07-31 13:13:02 | INFO     | ==================================================
+2026-07-31 13:13:02 | INFO     | Telegram Auto Message Scheduler khởi động
+2026-07-31 13:13:02 | INFO     | ==================================================
+2026-07-31 13:13:02 | INFO     | Đang tạo / kết nối Telegram client...
+2026-07-31 13:13:02 | INFO     | Connecting to 91.108.56.114:443/TcpFull...
+2026-07-31 13:13:02 | INFO     | Connection to 91.108.56.114:443/TcpFull complete!
+2026-07-31 13:13:07 | ERROR    | Lỗi nghiêm trọng không phải mạng: database is locked
+Traceback (most recent call last):
+  File "/storage/emulated/0/Download/bot/main.py", line 512, in main
+    client = await create_client(api_id, api_hash)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/emulated/0/Download/bot/main.py", line 172, in create_client
+    await client.connect()
+  File "/data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/client/telegrambaseclient.py", line 571, in connect
+    self.session.auth_key = self._sender.auth_key
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/sessions/sqlite.py", line 191, in auth_key
+    self._update_session_table()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/sessions/sqlite.py", line 210, in _update_session_table
+    c.execute('delete from sessions')
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+2026-07-31 13:13:07 | INFO     | Đợi 30 giây rồi thử khởi động lại...
+2026-07-31 13:13:08 | INFO     | ⏳ Còn lại: 23h 58m 00s
+2026-07-31 13:13:37 | INFO     | Chuẩn bị vòng lặp khởi động lại...
+2026-07-31 13:13:37 | INFO     | Đang tạo / kết nối Telegram client...
+2026-07-31 13:13:37 | INFO     | Connecting to 91.108.56.114:443/TcpFull...
+2026-07-31 13:13:37 | INFO     | Connection to 91.108.56.114:443/TcpFull complete!
+2026-07-31 13:13:43 | ERROR    | Lỗi nghiêm trọng không phải mạng: database is locked
+Traceback (most recent call last):
+  File "/storage/emulated/0/Download/bot/main.py", line 512, in main
+    client = await create_client(api_id, api_hash)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/emulated/0/Download/bot/main.py", line 172, in create_client
+    await client.connect()
+  File "/data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/client/telegrambaseclient.py", line 571, in connect
+    self.session.auth_key = self._sender.auth_key
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/sessions/sqlite.py", line 191, in auth_key
+    self._update_session_table()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/sessions/sqlite.py", line 210, in _update_session_table
+    c.execute('delete from sessions')
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+2026-07-31 13:13:43 | INFO     | Đợi 30 giây rồi thử khởi động lại...
+2026-07-31 13:14:08 | INFO     | ⏳ Còn lại: 23h 57m 00s
+2026-07-31 13:14:13 | INFO     | Chuẩn bị vòng lặp khởi động lại...
+2026-07-31 13:14:13 | INFO     | Đang tạo / kết nối Telegram client...
+2026-07-31 13:14:13 | ERROR    | Task was destroyed but it is pending!
+task: <Task pending name='Task-2' coro=<Connection._send_loop() done, defined at /data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/network/connection/connection.py:316> wait_for=<Future cancelled>>
+2026-07-31 13:14:13 | ERROR    | Task was destroyed but it is pending!
+task: <Task pending name='Task-3' coro=<Connection._recv_loop() running at /data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/network/connection/connection.py:361> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-07-31 13:14:13 | ERROR    | Task was destroyed but it is pending!
+task: <Task pending name='Task-4' coro=<MTProtoSender._send_loop() done, defined at /data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/network/mtprotosender.py:452> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-07-31 13:14:13 | ERROR    | Task was destroyed but it is pending!
+task: <Task pending name='Task-5' coro=<MTProtoSender._recv_loop() done, defined at /data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/network/mtprotosender.py:503> wait_for=<Future cancelled>>
+2026-07-31 13:14:13 | ERROR    | Task was destroyed but it is pending!
+task: <Task pending name='Task-6' coro=<Connection._send_loop() done, defined at /data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/network/connection/connection.py:316> wait_for=<Future cancelled>>
+2026-07-31 13:14:13 | ERROR    | Task was destroyed but it is pending!
+task: <Task pending name='Task-7' coro=<Connection._recv_loop() running at /data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/network/connection/connection.py:361> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-07-31 13:14:13 | ERROR    | Task was destroyed but it is pending!
+task: <Task pending name='Task-8' coro=<MTProtoSender._send_loop() done, defined at /data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/network/mtprotosender.py:452> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-07-31 13:14:13 | ERROR    | Task was destroyed but it is pending!
+task: <Task pending name='Task-9' coro=<MTProtoSender._recv_loop() done, defined at /data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/network/mtprotosender.py:503> wait_for=<Future cancelled>>
+2026-07-31 13:14:13 | INFO     | Connecting to 91.108.56.114:443/TcpFull...
+2026-07-31 13:14:13 | INFO     | Connection to 91.108.56.114:443/TcpFull complete!
+2026-07-31 13:14:18 | ERROR    | Lỗi nghiêm trọng không phải mạng: database is locked
+Traceback (most recent call last):
+  File "/storage/emulated/0/Download/bot/main.py", line 512, in main
+    client = await create_client(api_id, api_hash)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/emulated/0/Download/bot/main.py", line 172, in create_client
+    await client.connect()
+  File "/data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/client/telegrambaseclient.py", line 571, in connect
+    self.session.auth_key = self._sender.auth_key
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/sessions/sqlite.py", line 191, in auth_key
+    self._update_session_table()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/sessions/sqlite.py", line 210, in _update_session_table
+    c.execute('delete from sessions')
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+2026-07-31 13:14:18 | INFO     | Đợi 30 giây rồi thử khởi động lại...
+2026-07-31 13:14:48 | INFO     | Chuẩn bị vòng lặp khởi động lại...
+2026-07-31 13:14:49 | INFO     | Đang tạo / kết nối Telegram client...
+2026-07-31 13:14:49 | INFO     | Connecting to 91.108.56.114:443/TcpFull...
+2026-07-31 13:14:49 | INFO     | Connection to 91.108.56.114:443/TcpFull complete!
+2026-07-31 13:14:54 | ERROR    | Lỗi nghiêm trọng không phải mạng: database is locked
+Traceback (most recent call last):
+  File "/storage/emulated/0/Download/bot/main.py", line 512, in main
+    client = await create_client(api_id, api_hash)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/emulated/0/Download/bot/main.py", line 172, in create_client
+    await client.connect()
+  File "/data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/client/telegrambaseclient.py", line 571, in connect
+    self.session.auth_key = self._sender.auth_key
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/sessions/sqlite.py", line 191, in auth_key
+    self._update_session_table()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/sessions/sqlite.py", line 210, in _update_session_table
+    c.execute('delete from sessions')
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+2026-07-31 13:14:54 | INFO     | Đợi 30 giây rồi thử khởi động lại...
+2026-07-31 13:15:08 | INFO     | ⏳ Còn lại: 23h 56m 00s
+2026-07-31 13:15:24 | INFO     | Chuẩn bị vòng lặp khởi động lại...
+2026-07-31 13:15:24 | INFO     | Đang tạo / kết nối Telegram client...
+2026-07-31 13:15:24 | INFO     | Connecting to 91.108.56.114:443/TcpFull...
+2026-07-31 13:15:24 | INFO     | Connection to 91.108.56.114:443/TcpFull complete!
+2026-07-31 13:15:29 | ERROR    | Lỗi nghiêm trọng không phải mạng: database is locked
+Traceback (most recent call last):
+  File "/storage/emulated/0/Download/bot/main.py", line 512, in main
+    client = await create_client(api_id, api_hash)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/emulated/0/Download/bot/main.py", line 172, in create_client
+    await client.connect()
+  File "/data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/client/telegrambaseclient.py", line 571, in connect
+    self.session.auth_key = self._sender.auth_key
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/sessions/sqlite.py", line 191, in auth_key
+    self._update_session_table()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/sessions/sqlite.py", line 210, in _update_session_table
+    c.execute('delete from sessions')
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+2026-07-31 13:15:29 | INFO     | Đợi 30 giây rồi thử khởi động lại...
+2026-07-31 13:15:43 | WARNING  | Server closed the connection: 0 bytes read on a total of 8 expected bytes
+2026-07-31 13:15:43 | INFO     | Connection closed while receiving data: 0 bytes read on a total of 8 expected bytes
+2026-07-31 13:15:43 | INFO     | Closing current connection to begin reconnect...
+2026-07-31 13:15:43 | INFO     | Connecting to 91.108.56.114:443/TcpFull...
+2026-07-31 13:15:43 | INFO     | Connection to 91.108.56.114:443/TcpFull complete!
+2026-07-31 13:15:59 | INFO     | Chuẩn bị vòng lặp khởi động lại...
+2026-07-31 13:15:59 | INFO     | Đang tạo / kết nối Telegram client...
+2026-07-31 13:15:59 | INFO     | Connecting to 91.108.56.114:443/TcpFull...
+2026-07-31 13:16:00 | INFO     | Connection to 91.108.56.114:443/TcpFull complete!
+2026-07-31 13:16:05 | ERROR    | Lỗi nghiêm trọng không phải mạng: database is locked
+Traceback (most recent call last):
+  File "/storage/emulated/0/Download/bot/main.py", line 512, in main
+    client = await create_client(api_id, api_hash)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/emulated/0/Download/bot/main.py", line 172, in create_client
+    await client.connect()
+  File "/data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/client/telegrambaseclient.py", line 571, in connect
+    self.session.auth_key = self._sender.auth_key
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/sessions/sqlite.py", line 191, in auth_key
+    self._update_session_table()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/sessions/sqlite.py", line 210, in _update_session_table
+    c.execute('delete from sessions')
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+2026-07-31 13:16:05 | INFO     | Đợi 30 giây rồi thử khởi động lại...
+2026-07-31 13:16:19 | WARNING  | Server closed the connection: 0 bytes read on a total of 8 expected bytes
+2026-07-31 13:16:19 | INFO     | Connection closed while receiving data: 0 bytes read on a total of 8 expected bytes
+2026-07-31 13:16:19 | INFO     | Closing current connection to begin reconnect...
+2026-07-31 13:16:19 | INFO     | Connecting to 91.108.56.114:443/TcpFull...
+2026-07-31 13:16:19 | INFO     | Connection to 91.108.56.114:443/TcpFull complete!
+2026-07-31 13:16:24 | WARNING  | Error executing high-level request after reconnect: <class 'sqlite3.OperationalError'>: database is locked
+2026-07-31 13:16:35 | INFO     | Chuẩn bị vòng lặp khởi động lại...
+2026-07-31 13:16:35 | INFO     | Đang tạo / kết nối Telegram client...
+2026-07-31 13:16:35 | INFO     | Connecting to 91.108.56.114:443/TcpFull...
+2026-07-31 13:16:35 | INFO     | Connection to 91.108.56.114:443/TcpFull complete!
+2026-07-31 13:16:41 | ERROR    | Lỗi nghiêm trọng không phải mạng: database is locked
+Traceback (most recent call last):
+  File "/storage/emulated/0/Download/bot/main.py", line 512, in main
+    client = await create_client(api_id, api_hash)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/emulated/0/Download/bot/main.py", line 172, in create_client
+    await client.connect()
+  File "/data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/client/telegrambaseclient.py", line 571, in connect
+    self.session.auth_key = self._sender.auth_key
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/sessions/sqlite.py", line 191, in auth_key
+    self._update_session_table()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/sessions/sqlite.py", line 210, in _update_session_table
+    c.execute('delete from sessions')
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+2026-07-31 13:16:41 | INFO     | Đợi 30 giây rồi thử khởi động lại...
+2026-07-31 13:16:54 | WARNING  | Server closed the connection: 0 bytes read on a total of 8 expected bytes
+2026-07-31 13:16:54 | INFO     | Connection closed while receiving data: 0 bytes read on a total of 8 expected bytes
+2026-07-31 13:16:54 | INFO     | Closing current connection to begin reconnect...
+2026-07-31 13:16:54 | INFO     | Connecting to 91.108.56.114:443/TcpFull...
+2026-07-31 13:16:54 | INFO     | Connection to 91.108.56.114:443/TcpFull complete!
+2026-07-31 13:17:00 | WARNING  | Error executing high-level request after reconnect: <class 'sqlite3.OperationalError'>: database is locked
+2026-07-31 13:17:11 | INFO     | Chuẩn bị vòng lặp khởi động lại...
+2026-07-31 13:17:11 | INFO     | Đang tạo / kết nối Telegram client...
+2026-07-31 13:17:11 | ERROR    | Lỗi nghiêm trọng không phải mạng: unable to open database file
+Traceback (most recent call last):
+  File "/storage/emulated/0/Download/bot/main.py", line 512, in main
+  File "/storage/emulated/0/Download/bot/main.py", line 170, in create_client
+  File "/data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/client/telegrambaseclient.py", line 297, in __init__
+    session = SQLiteSession(str(session))
+  File "/data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/sessions/sqlite.py", line 48, in __init__
+    c = self._cursor()
+  File "/data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/sessions/sqlite.py", line 259, in _cursor
+    self._conn = sqlite3.connect(self.filename,
+                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+                                 check_same_thread=False)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: unable to open database file
+2026-07-31 13:17:11 | INFO     | Đợi 30 giây rồi thử khởi động lại...
+2026-07-31 13:18:20 | INFO     | ==================================================
+2026-07-31 13:18:20 | INFO     | Telegram Auto Message Scheduler khởi động
+2026-07-31 13:18:20 | INFO     | ==================================================
+2026-07-31 13:18:20 | INFO     | Đang tạo / kết nối Telegram client...
+2026-07-31 13:18:20 | INFO     | Connecting to 91.108.56.114:443/TcpFull...
+2026-07-31 13:18:20 | INFO     | Connection to 91.108.56.114:443/TcpFull complete!
+2026-07-31 13:18:25 | WARNING  | Session database is locked (lần 1/5). Đợi 3s rồi thử lại...
+2026-07-31 13:18:28 | INFO     | User is already connected!
+2026-07-31 13:18:28 | INFO     | Đã có session hợp lệ. Bỏ qua đăng nhập.
+2026-07-31 13:18:34 | ERROR    | Session database is locked. Đợi 20 giây để giải phóng file...
+2026-07-31 13:18:54 | INFO     | Chuẩn bị vòng lặp khởi động lại...
+2026-07-31 13:18:54 | INFO     | Đang tạo / kết nối Telegram client...
+2026-07-31 13:18:54 | INFO     | Connecting to 91.108.56.114:443/TcpFull...
+2026-07-31 13:18:54 | INFO     | Connection to 91.108.56.114:443/TcpFull complete!
+2026-07-31 13:18:54 | ERROR    | Task was destroyed but it is pending!
+task: <Task pending name='Task-2' coro=<Connection._send_loop() done, defined at /data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/network/connection/connection.py:316> wait_for=<Future cancelled>>
+2026-07-31 13:18:54 | ERROR    | Task was destroyed but it is pending!
+task: <Task pending name='Task-3' coro=<Connection._recv_loop() running at /data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/network/connection/connection.py:361> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-07-31 13:18:54 | ERROR    | Task was destroyed but it is pending!
+task: <Task pending name='Task-4' coro=<MTProtoSender._send_loop() done, defined at /data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/network/mtprotosender.py:452> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-07-31 13:18:54 | ERROR    | Task was destroyed but it is pending!
+task: <Task pending name='Task-5' coro=<MTProtoSender._recv_loop() done, defined at /data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/network/mtprotosender.py:503> wait_for=<Future cancelled>>
+2026-07-31 13:18:55 | INFO     | Đã có session hợp lệ. Bỏ qua đăng nhập.
+2026-07-31 13:18:55 | INFO     | Đang chạy với tài khoản: ☠︎︎𝑯𝒖̛𝒏𝒈_𝑶𝒇𝒇𝒑𝒚𝒔𝒐♚ (@Hungoffpyso)
+2026-07-31 13:18:55 | INFO     | Bắt đầu scheduler | Bot: @tuongtacmxh36_bot | Interval: 24h
+2026-07-31 13:18:55 | INFO     | Nội dung: /daily
+2026-07-31 13:18:55 | INFO     | Chưa đến giờ. Lần gửi tiếp theo: 2026-08-01 06:00:00
+2026-07-31 13:18:55 | INFO     | ⏳ Còn lại: 16h 41m 04s
+2026-07-31 13:19:55 | INFO     | ⏳ Còn lại: 16h 40m 04s
+2026-07-31 13:20:55 | INFO     | ⏳ Còn lại: 16h 39m 04s
+2026-07-31 13:21:55 | INFO     | ⏳ Còn lại: 16h 38m 04s
+2026-07-31 13:22:55 | INFO     | ⏳ Còn lại: 16h 37m 04s
+2026-07-31 13:23:56 | INFO     | ⏳ Còn lại: 16h 36m 04s
+2026-07-31 13:24:56 | INFO     | ⏳ Còn lại: 16h 35m 04s
+2026-07-31 13:25:41 | INFO     | ==================================================
+2026-07-31 13:25:41 | INFO     | Telegram Auto Message Scheduler khởi động
+2026-07-31 13:25:41 | INFO     | ==================================================
+2026-07-31 13:25:42 | INFO     | Đang tạo / kết nối Telegram client...
+2026-07-31 13:25:42 | INFO     | Connecting to 91.108.56.114:443/TcpFull...
+2026-07-31 13:25:42 | INFO     | Connection to 91.108.56.114:443/TcpFull complete!
+2026-07-31 13:25:42 | INFO     | Đã có session hợp lệ. Bỏ qua đăng nhập.
+2026-07-31 13:25:42 | INFO     | Đang chạy với tài khoản: ☠︎︎𝑯𝒖̛𝒏𝒈_𝑶𝒇𝒇𝒑𝒚𝒔𝒐♚ (@Hungoffpyso)
+2026-07-31 13:25:42 | INFO     | Bắt đầu scheduler | Bot: @tuongtacmxh36_bot | Interval: 24h
+2026-07-31 13:25:42 | INFO     | Nội dung: /daily
+2026-07-31 13:25:43 | INFO     | Chưa đến giờ. Lần gửi tiếp theo: 2026-08-01 06:00:00
+2026-07-31 13:25:43 | INFO     | ⏳ Còn lại: 16h 34m 16s
+2026-07-31 13:26:43 | INFO     | ⏳ Còn lại: 16h 33m 16s
+2026-07-31 13:27:43 | INFO     | ⏳ Còn lại: 16h 32m 16s
+2026-07-31 13:28:43 | INFO     | ⏳ Còn lại: 16h 31m 16s
+2026-07-31 13:29:05 | INFO     | ==================================================
+2026-07-31 13:29:05 | INFO     | Telegram Auto Message Scheduler khởi động
+2026-07-31 13:29:05 | INFO     | ==================================================
+2026-07-31 13:29:06 | INFO     | Đang tạo / kết nối Telegram client...
+2026-07-31 13:29:06 | INFO     | Connecting to 91.108.56.114:443/TcpFull...
+2026-07-31 13:29:06 | INFO     | Connection to 91.108.56.114:443/TcpFull complete!
+2026-07-31 13:29:07 | INFO     | Đã có session hợp lệ. Bỏ qua đăng nhập.
+2026-07-31 13:29:07 | INFO     | Đang chạy với tài khoản: ☠︎︎𝑯𝒖̛𝒏𝒈_𝑶𝒇𝒇𝒑𝒚𝒔𝒐♚ (@Hungoffpyso)
+2026-07-31 13:29:07 | INFO     | Bắt đầu scheduler | Bot: @tuongtacmxh36_bot | Interval: 24h
+2026-07-31 13:29:07 | INFO     | Nội dung: /daily
+2026-07-31 13:29:07 | INFO     | Chưa đến giờ. Lần gửi tiếp theo: 2026-08-01 06:00:00
+2026-07-31 13:29:07 | INFO     | ⏳ Còn lại: 16h 30m 52s
+2026-07-31 18:46:24 | INFO     | ==================================================
+2026-07-31 18:46:24 | INFO     | Telegram Auto Message Scheduler khởi động
+2026-07-31 18:46:24 | INFO     | ==================================================
+2026-07-31 18:46:24 | INFO     | Đang tạo / kết nối Telegram client...
+2026-07-31 18:46:24 | INFO     | Connecting to 91.108.56.114:443/TcpFull...
+2026-07-31 18:46:24 | INFO     | Connection to 91.108.56.114:443/TcpFull complete!
+2026-07-31 18:46:25 | INFO     | Đã có session hợp lệ. Bỏ qua đăng nhập.
+2026-07-31 18:46:25 | INFO     | Đang chạy với tài khoản: ☠︎︎𝑯𝒖̛𝒏𝒈_𝑶𝒇𝒇𝒑𝒚𝒔𝒐♚ (@Hungoffpyso)
+2026-07-31 18:46:25 | INFO     | Bắt đầu scheduler | Bot: @tuongtacmxh36_bot | Interval: 24h
+2026-07-31 18:46:25 | INFO     | Nội dung: /daily
+2026-07-31 18:46:25 | INFO     | Chưa đến giờ. Lần gửi tiếp theo: 2026-08-01 06:00:00
+2026-07-31 18:46:25 | INFO     | ⏳ Còn lại: 11h 13m 34s
+2026-07-31 18:47:25 | INFO     | ⏳ Còn lại: 11h 12m 34s
+2026-07-31 18:48:25 | INFO     | ⏳ Còn lại: 11h 11m 34s
+2026-07-31 18:49:25 | INFO     | ⏳ Còn lại: 11h 10m 34s
+2026-07-31 18:50:25 | INFO     | ⏳ Còn lại: 11h 09m 34s
+2026-07-31 23:18:33 | INFO     | ==================================================
+2026-07-31 23:18:33 | INFO     | Telegram Auto Message Scheduler khởi động
+2026-07-31 23:18:33 | INFO     | ==================================================
+2026-07-31 23:18:33 | INFO     | Đang tạo / kết nối Telegram client...
+2026-07-31 23:18:33 | INFO     | Connecting to 91.108.56.114:443/TcpFull...
+2026-07-31 23:18:33 | INFO     | Connection to 91.108.56.114:443/TcpFull complete!
+2026-07-31 23:18:33 | INFO     | Đã có session hợp lệ. Bỏ qua đăng nhập.
+2026-07-31 23:18:34 | INFO     | Đang chạy với tài khoản: ☠︎︎𝑯𝒖̛𝒏𝒈_𝑶𝒇𝒇𝒑𝒚𝒔𝒐♚ (@Hungoffpyso)
+2026-07-31 23:18:34 | INFO     | Bắt đầu scheduler | Bot: @tuongtacmxh36_bot | Interval: 24h
+2026-07-31 23:18:34 | INFO     | Nội dung: /daily
+2026-07-31 23:18:34 | INFO     | Chưa đến giờ. Lần gửi tiếp theo: 2026-08-01 06:00:00
+2026-07-31 23:18:34 | INFO     | ⏳ Còn lại: 6h 41m 25s
+2026-07-31 23:19:34 | INFO     | ⏳ Còn lại: 6h 40m 25s
+2026-08-01 05:34:00 | INFO     | ==================================================
+2026-08-01 05:34:00 | INFO     | Telegram Auto Message Scheduler khởi động
+2026-08-01 05:34:00 | INFO     | ==================================================
+2026-08-01 05:34:00 | INFO     | Đang tạo / kết nối Telegram client...
+2026-08-01 05:34:00 | INFO     | Connecting to 91.108.56.114:443/TcpFull...
+2026-08-01 05:34:00 | INFO     | Connection to 91.108.56.114:443/TcpFull complete!
+2026-08-01 05:34:01 | INFO     | Đã có session hợp lệ. Bỏ qua đăng nhập.
+2026-08-01 05:34:01 | INFO     | Đang chạy với tài khoản: ☠︎︎𝑯𝒖̛𝒏𝒈_𝑶𝒇𝒇𝒑𝒚𝒔𝒐♚ (@Hungoffpyso)
+2026-08-01 05:34:01 | INFO     | Bắt đầu scheduler | Bot: @tuongtacmxh36_bot | Interval: 24h
+2026-08-01 05:34:01 | INFO     | Nội dung: /daily
+2026-08-01 05:34:01 | INFO     | Chưa đến giờ. Lần gửi tiếp theo: 2026-08-01 06:00:00
+2026-08-01 05:34:01 | INFO     | ⏳ Còn lại: 25m 58s
+2026-08-01 05:35:01 | INFO     | ⏳ Còn lại: 24m 58s
+2026-08-01 05:36:01 | INFO     | ⏳ Còn lại: 23m 58s
+2026-08-01 05:37:01 | INFO     | ⏳ Còn lại: 22m 58s
+2026-08-01 05:38:01 | INFO     | ⏳ Còn lại: 21m 58s
+2026-08-01 05:39:01 | INFO     | ⏳ Còn lại: 20m 58s
+2026-08-01 05:40:01 | INFO     | ⏳ Còn lại: 19m 58s
+2026-08-01 05:41:01 | INFO     | ⏳ Còn lại: 18m 58s
+2026-08-01 05:42:01 | INFO     | ⏳ Còn lại: 17m 58s
+2026-08-01 05:43:01 | INFO     | ⏳ Còn lại: 16m 58s
+2026-08-01 05:44:02 | INFO     | ⏳ Còn lại: 15m 58s
+2026-08-01 05:45:02 | INFO     | ⏳ Còn lại: 14m 58s
+2026-08-01 05:46:02 | INFO     | ⏳ Còn lại: 13m 58s
+2026-08-01 05:47:02 | INFO     | ⏳ Còn lại: 12m 58s
+2026-08-01 05:48:02 | INFO     | ⏳ Còn lại: 11m 58s
+2026-08-01 05:49:02 | INFO     | ⏳ Còn lại: 10m 58s
+2026-08-01 05:50:02 | INFO     | ⏳ Còn lại: 9m 58s
+2026-08-01 05:51:02 | INFO     | ⏳ Còn lại: 8m 58s
+2026-08-01 05:52:02 | INFO     | ⏳ Còn lại: 7m 58s
+2026-08-01 05:53:02 | INFO     | ⏳ Còn lại: 6m 58s
+2026-08-01 05:54:02 | INFO     | ⏳ Còn lại: 5m 58s
+2026-08-01 05:55:03 | INFO     | ⏳ Còn lại: 4m 58s
+2026-08-01 05:56:03 | INFO     | ⏳ Còn lại: 3m 58s
+2026-08-01 05:57:03 | INFO     | ⏳ Còn lại: 2m 58s
+2026-08-01 05:58:03 | INFO     | ⏳ Còn lại: 1m 58s
+2026-08-01 05:59:03 | INFO     | ⏳ Còn lại: 58s
+2026-08-01 06:00:02 | INFO     | Đang gửi tin nhắn...
+2026-08-01 06:00:02 | INFO     | Đã gửi thành công tới @tuongtacmxh36_bot: /daily
+2026-08-01 06:00:02 | INFO     | Gửi thành công lúc 2026-08-01 06:00:02
+2026-08-01 06:00:02 | INFO     | Bắt đầu chờ 24 giờ đến lần gửi tiếp theo...
+2026-08-01 06:00:02 | INFO     | ⏳ Còn lại: 24h 00m 00s
+2026-08-01 06:01:02 | INFO     | ⏳ Còn lại: 23h 59m 00s
+2026-08-01 06:02:02 | INFO     | ⏳ Còn lại: 23h 58m 00s
+2026-08-01 06:03:02 | INFO     | ⏳ Còn lại: 23h 57m 00s
+2026-08-01 06:04:01 | INFO     | Got difference for account updates
+2026-08-01 06:04:02 | INFO     | ⏳ Còn lại: 23h 56m 00s
+2026-08-01 06:05:02 | INFO     | ⏳ Còn lại: 23h 55m 00s
+2026-08-01 06:06:02 | INFO     | ⏳ Còn lại: 23h 54m 00s
+2026-08-01 06:07:02 | INFO     | ⏳ Còn lại: 23h 53m 00s
+2026-08-01 06:08:02 | INFO     | ⏳ Còn lại: 23h 52m 00s
+2026-08-01 06:09:02 | INFO     | ⏳ Còn lại: 23h 51m 00s
+2026-08-01 06:10:02 | INFO     | ⏳ Còn lại: 23h 50m 00s
+2026-08-01 06:11:02 | INFO     | ⏳ Còn lại: 23h 49m 00s
+2026-08-01 06:12:02 | INFO     | ⏳ Còn lại: 23h 48m 00s
+2026-08-01 06:13:02 | INFO     | ⏳ Còn lại: 23h 47m 00s
+2026-08-01 06:14:03 | INFO     | ⏳ Còn lại: 23h 46m 00s
+2026-08-01 06:15:03 | INFO     | ⏳ Còn lại: 23h 45m 00s
+2026-08-01 06:16:03 | INFO     | ⏳ Còn lại: 23h 44m 00s
+2026-08-01 06:17:03 | INFO     | ⏳ Còn lại: 23h 43m 00s
+2026-08-01 06:18:03 | INFO     | ⏳ Còn lại: 23h 42m 00s
+2026-08-01 06:19:01 | INFO     | Got difference for channel 1635170908 updates
+2026-08-01 06:19:03 | INFO     | ⏳ Còn lại: 23h 41m 00s
+2026-08-01 06:20:03 | INFO     | ⏳ Còn lại: 23h 40m 00s
+2026-08-01 06:21:03 | INFO     | ⏳ Còn lại: 23h 39m 00s
+2026-08-01 06:22:03 | INFO     | ⏳ Còn lại: 23h 38m 00s
+2026-08-01 06:23:03 | INFO     | ⏳ Còn lại: 23h 37m 00s
+2026-08-01 06:24:03 | INFO     | ⏳ Còn lại: 23h 36m 00s
+2026-08-01 06:25:03 | INFO     | ⏳ Còn lại: 23h 35m 00s
+2026-08-01 06:26:03 | INFO     | ⏳ Còn lại: 23h 34m 00s
+2026-08-01 06:27:03 | INFO     | ⏳ Còn lại: 23h 33m 00s
+2026-08-01 06:28:03 | INFO     | ⏳ Còn lại: 23h 32m 00s
+2026-08-01 06:29:03 | INFO     | ⏳ Còn lại: 23h 31m 00s
+2026-08-01 06:30:03 | INFO     | ⏳ Còn lại: 23h 30m 00s
+2026-08-01 06:31:03 | INFO     | ⏳ Còn lại: 23h 29m 00s
+2026-08-01 06:32:03 | INFO     | ⏳ Còn lại: 23h 28m 00s
+2026-08-01 06:33:03 | INFO     | ⏳ Còn lại: 23h 27m 00s
+2026-08-01 06:34:03 | INFO     | ⏳ Còn lại: 23h 26m 00s
+2026-08-01 06:35:03 | INFO     | ⏳ Còn lại: 23h 25m 00s
+2026-08-01 06:36:03 | INFO     | ⏳ Còn lại: 23h 24m 00s
+2026-08-01 06:37:03 | INFO     | ⏳ Còn lại: 23h 23m 00s
+2026-08-01 06:38:03 | INFO     | ⏳ Còn lại: 23h 22m 00s
+2026-08-01 06:39:03 | INFO     | ⏳ Còn lại: 23h 21m 00s
+2026-08-01 06:40:04 | INFO     | ⏳ Còn lại: 23h 20m 00s
+2026-08-01 06:41:04 | INFO     | ⏳ Còn lại: 23h 19m 00s
+2026-08-01 06:42:04 | INFO     | ⏳ Còn lại: 23h 18m 00s
+2026-08-01 06:43:04 | INFO     | ⏳ Còn lại: 23h 17m 00s
+2026-08-01 06:44:04 | INFO     | ⏳ Còn lại: 23h 16m 00s
+2026-08-01 06:45:04 | INFO     | ⏳ Còn lại: 23h 15m 00s
+2026-08-01 06:46:04 | INFO     | ⏳ Còn lại: 23h 14m 00s
+2026-08-01 06:47:04 | INFO     | ⏳ Còn lại: 23h 13m 00s
+2026-08-01 06:48:04 | INFO     | ⏳ Còn lại: 23h 12m 00s
+2026-08-01 06:49:02 | INFO     | Got difference for account updates
+2026-08-01 06:49:04 | INFO     | ⏳ Còn lại: 23h 11m 00s
+2026-08-01 06:50:04 | INFO     | ⏳ Còn lại: 23h 10m 00s
+2026-08-01 06:51:04 | INFO     | ⏳ Còn lại: 23h 09m 00s
+2026-08-01 06:52:04 | INFO     | ⏳ Còn lại: 23h 08m 00s
+2026-08-01 06:53:04 | INFO     | ⏳ Còn lại: 23h 07m 00s
+2026-08-01 06:54:04 | INFO     | ⏳ Còn lại: 23h 06m 00s
+2026-08-01 06:55:04 | INFO     | ⏳ Còn lại: 23h 05m 00s
+2026-08-01 06:56:04 | INFO     | ⏳ Còn lại: 23h 04m 00s
+2026-08-01 06:57:04 | INFO     | ⏳ Còn lại: 23h 03m 00s
+2026-08-01 06:58:04 | INFO     | ⏳ Còn lại: 23h 02m 00s
+2026-08-01 06:59:04 | INFO     | ⏳ Còn lại: 23h 01m 00s
+2026-08-01 07:00:04 | INFO     | ⏳ Còn lại: 23h 00m 00s
+2026-08-01 07:00:10 | INFO     | Got difference for channel 1635170908 updates
+2026-08-01 07:01:04 | INFO     | ⏳ Còn lại: 22h 59m 00s
+2026-08-01 07:02:04 | INFO     | ⏳ Còn lại: 22h 58m 00s
+2026-08-01 07:03:05 | INFO     | ⏳ Còn lại: 22h 57m 00s
+2026-08-01 07:04:02 | INFO     | Got difference for account updates
+2026-08-01 07:04:05 | INFO     | ⏳ Còn lại: 22h 56m 00s
+2026-08-01 07:05:05 | INFO     | ⏳ Còn lại: 22h 55m 00s
+2026-08-01 07:06:05 | INFO     | ⏳ Còn lại: 22h 54m 00s
+2026-08-01 07:07:24 | INFO     | ⏳ Còn lại: 22h 53m 00s
+2026-08-01 07:08:52 | INFO     | ⏳ Còn lại: 22h 52m 00s
+2026-08-01 07:09:59 | INFO     | ⏳ Còn lại: 22h 51m 00s
+2026-08-01 07:11:09 | INFO     | ⏳ Còn lại: 22h 50m 00s
+2026-08-01 07:12:35 | INFO     | ⏳ Còn lại: 22h 49m 00s
+2026-08-01 07:13:52 | INFO     | ⏳ Còn lại: 22h 48m 00s
+2026-08-01 07:14:59 | INFO     | ⏳ Còn lại: 22h 47m 00s
+2026-08-01 07:16:20 | INFO     | ⏳ Còn lại: 22h 46m 00s
+2026-08-01 07:17:34 | INFO     | ⏳ Còn lại: 22h 45m 00s
+2026-08-01 07:18:38 | INFO     | ⏳ Còn lại: 22h 44m 00s
+2026-08-01 07:20:11 | INFO     | ⏳ Còn lại: 22h 43m 00s
+2026-08-01 07:21:15 | INFO     | ⏳ Còn lại: 22h 42m 00s
+2026-08-01 07:22:43 | INFO     | ⏳ Còn lại: 22h 41m 00s
+2026-08-01 07:24:01 | INFO     | ⏳ Còn lại: 22h 40m 00s
+2026-08-01 07:25:11 | INFO     | ⏳ Còn lại: 22h 39m 00s
+2026-08-01 07:26:31 | INFO     | ⏳ Còn lại: 22h 38m 00s
+2026-08-01 07:27:50 | INFO     | ⏳ Còn lại: 22h 37m 00s
+2026-08-01 07:29:19 | INFO     | ⏳ Còn lại: 22h 36m 00s
+2026-08-01 07:30:25 | INFO     | ⏳ Còn lại: 22h 35m 00s
+2026-08-01 07:31:38 | INFO     | ⏳ Còn lại: 22h 34m 00s
+2026-08-01 07:33:26 | INFO     | ⏳ Còn lại: 22h 33m 00s
+2026-08-01 07:34:58 | INFO     | ⏳ Còn lại: 22h 32m 00s
+2026-08-01 07:36:05 | INFO     | ⏳ Còn lại: 22h 31m 00s
+2026-08-01 07:37:21 | INFO     | ⏳ Còn lại: 22h 30m 00s
+2026-08-01 07:38:47 | INFO     | ⏳ Còn lại: 22h 29m 00s
+2026-08-01 07:39:56 | INFO     | ⏳ Còn lại: 22h 28m 00s
+2026-08-01 07:41:13 | INFO     | ⏳ Còn lại: 22h 27m 00s
+2026-08-01 07:42:19 | INFO     | ⏳ Còn lại: 22h 26m 00s
+2026-08-01 07:43:30 | INFO     | ⏳ Còn lại: 22h 25m 00s
+2026-08-01 07:44:46 | INFO     | ⏳ Còn lại: 22h 24m 00s
+2026-08-01 07:46:00 | INFO     | ⏳ Còn lại: 22h 23m 00s
+2026-08-01 07:47:00 | INFO     | ⏳ Còn lại: 22h 22m 00s
+2026-08-01 07:48:01 | INFO     | ⏳ Còn lại: 22h 21m 00s
+2026-08-01 07:49:01 | INFO     | ⏳ Còn lại: 22h 20m 00s
+2026-08-01 07:50:01 | INFO     | ⏳ Còn lại: 22h 19m 00s
+2026-08-01 07:50:04 | WARNING  | Server closed the connection: [Errno 103] Software caused connection abort
+2026-08-01 07:50:04 | INFO     | Connection closed while receiving data: [Errno 103] Software caused connection abort
+2026-08-01 07:50:04 | INFO     | Closing current connection to begin reconnect...
+2026-08-01 07:50:04 | INFO     | <class 'ConnectionAbortedError'> during disconnect: [Errno 103] Software caused connection abort
+2026-08-01 07:50:04 | INFO     | Connecting to 91.108.56.114:443/TcpFull...
+2026-08-01 07:50:04 | WARNING  | Attempt 1 at connecting failed: OSError: [Errno 101] Network is unreachable
+2026-08-01 07:50:05 | WARNING  | Attempt 2 at connecting failed: OSError: [Errno 101] Network is unreachable
+2026-08-01 07:50:06 | WARNING  | Attempt 3 at connecting failed: OSError: [Errno 101] Network is unreachable
+2026-08-01 07:50:07 | WARNING  | Attempt 4 at connecting failed: OSError: [Errno 101] Network is unreachable
+2026-08-01 07:50:08 | WARNING  | Attempt 5 at connecting failed: OSError: [Errno 101] Network is unreachable
+2026-08-01 07:50:09 | INFO     | Scheduler bị hủy.
+2026-08-01 07:50:09 | INFO     | Disconnecting from 91.108.56.114:443/TcpFull...
+2026-08-01 07:50:09 | INFO     | Disconnection from 91.108.56.114:443/TcpFull complete!
+2026-08-01 07:50:09 | ERROR    | Lỗi SQLite: unable to open database file
+Traceback (most recent call last):
+  File "/storage/emulated/0/Download/bot/main.py", line 533, in main
+  File "/data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/client/auth.py", line 672, in __aexit__
+    await self.disconnect()
+  File "/data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/client/telegrambaseclient.py", line 754, in _disconnect_coro
+    await self._save_states_and_entities()
+  File "/data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/client/telegrambaseclient.py", line 709, in _save_states_and_entities
+    self.session.process_entities(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        types.contacts.ResolvedPeer(None, [types.InputPeerUser(0, self._mb_entity_cache.self_id)], [])
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/sessions/sqlite.py", line 318, in process_entities
+    c.executemany(
+    ~~~~~~~~~~~~~^
+        'insert or replace into entities values (?,?,?,?,?,?)', rows)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: unable to open database file
+2026-08-01 07:50:09 | ERROR    | Unexpected exception reconnecting on attempt 1
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/network/mtprotosender.py", line 384, in _reconnect
+    await self._connect()
+  File "/data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/network/mtprotosender.py", line 240, in _connect
+    connected = await self._try_connect(attempt)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/network/mtprotosender.py", line 290, in _try_connect
+    await self._connection.connect(timeout=self._connect_timeout)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'connect'
+2026-08-02 06:03:46 | INFO     | ==================================================
+2026-08-02 06:03:46 | INFO     | Telegram Auto Message Scheduler khởi động
+2026-08-02 06:03:46 | INFO     | ==================================================
+2026-08-02 06:03:57 | INFO     | Đang tạo / kết nối Telegram client...
+2026-08-02 06:03:57 | INFO     | Connecting to 91.108.56.114:443/TcpFull...
+2026-08-02 06:04:00 | INFO     | Connection to 91.108.56.114:443/TcpFull complete!
+2026-08-02 06:04:00 | INFO     | Đã có session hợp lệ. Bỏ qua đăng nhập.
+2026-08-02 06:04:01 | INFO     | Đang chạy với tài khoản: ☠︎︎𝑯𝒖̛𝒏𝒈_𝑶𝒇𝒇𝒑𝒚𝒔𝒐♚ (@Hungoffpyso)
+2026-08-02 06:04:01 | INFO     | Bắt đầu scheduler | Bot: @tuongtacmxh36_bot | Interval: 24h
+2026-08-02 06:04:01 | INFO     | Nội dung: /daily
+2026-08-02 06:04:01 | INFO     | Đang gửi tin nhắn...
+2026-08-02 06:04:01 | INFO     | Đã gửi thành công tới @tuongtacmxh36_bot: /daily
+2026-08-02 06:04:01 | INFO     | Gửi thành công lúc 2026-08-02 06:04:01
+2026-08-02 06:04:01 | INFO     | Bắt đầu chờ 24 giờ đến lần gửi tiếp theo...
+2026-08-02 06:04:01 | INFO     | ⏳ Còn lại: 24h 00m 00s
+2026-08-02 06:05:01 | INFO     | ⏳ Còn lại: 23h 59m 00s
+2026-08-02 06:06:01 | INFO     | ⏳ Còn lại: 23h 58m 00s
+2026-08-02 06:07:01 | INFO     | ⏳ Còn lại: 23h 57m 00s
+2026-08-02 06:08:01 | INFO     | ⏳ Còn lại: 23h 56m 00s
+2026-08-02 06:09:01 | INFO     | ⏳ Còn lại: 23h 55m 00s
+2026-08-02 06:10:01 | INFO     | ⏳ Còn lại: 23h 54m 00s
+2026-08-02 06:11:01 | INFO     | ⏳ Còn lại: 23h 53m 00s
+2026-08-02 06:12:01 | INFO     | ⏳ Còn lại: 23h 52m 00s
+2026-08-02 06:13:01 | INFO     | ⏳ Còn lại: 23h 51m 00s
+2026-08-02 06:14:01 | INFO     | ⏳ Còn lại: 23h 50m 00s
+2026-08-02 06:15:01 | INFO     | ⏳ Còn lại: 23h 49m 00s
+2026-08-02 06:16:01 | INFO     | ⏳ Còn lại: 23h 48m 00s
+2026-08-02 06:17:01 | INFO     | ⏳ Còn lại: 23h 47m 00s
+2026-08-02 06:18:01 | INFO     | ⏳ Còn lại: 23h 46m 00s
+2026-08-02 06:19:01 | INFO     | Got difference for account updates
+2026-08-02 06:19:01 | INFO     | ⏳ Còn lại: 23h 45m 00s
+2026-08-03 05:59:03 | INFO     | ==================================================
+2026-08-03 05:59:03 | INFO     | Telegram Auto Message Scheduler khởi động
+2026-08-03 05:59:03 | INFO     | ==================================================
+2026-08-03 05:59:03 | INFO     | Đang tạo / kết nối Telegram client...
+2026-08-03 05:59:03 | INFO     | Connecting to 91.108.56.114:443/TcpFull...
+2026-08-03 05:59:03 | INFO     | Connection to 91.108.56.114:443/TcpFull complete!
+2026-08-03 05:59:04 | INFO     | Đã có session hợp lệ. Bỏ qua đăng nhập.
+2026-08-03 05:59:04 | INFO     | Đang chạy với tài khoản: ☠︎︎𝑯𝒖̛𝒏𝒈_𝑶𝒇𝒇𝒑𝒚𝒔𝒐♚ (@Hungoffpyso)
+2026-08-03 05:59:04 | INFO     | Bắt đầu scheduler | Bot: @tuongtacmxh36_bot | Interval: 24h
+2026-08-03 05:59:04 | INFO     | Nội dung: /daily
+2026-08-03 05:59:04 | INFO     | Chưa đến giờ. Lần gửi tiếp theo: 2026-08-03 06:04:01
+2026-08-03 05:59:04 | INFO     | ⏳ Còn lại: 4m 56s
+2026-08-03 06:00:05 | INFO     | ⏳ Còn lại: 3m 56s
+2026-08-03 06:01:05 | INFO     | ⏳ Còn lại: 2m 56s
+2026-08-03 06:02:05 | INFO     | ⏳ Còn lại: 1m 56s
+2026-08-03 06:03:05 | INFO     | ⏳ Còn lại: 56s
+2026-08-03 06:04:01 | INFO     | Đang gửi tin nhắn...
+2026-08-03 06:04:02 | INFO     | Đã gửi thành công tới @tuongtacmxh36_bot: /daily
+2026-08-03 06:04:02 | INFO     | Gửi thành công lúc 2026-08-03 06:04:02
+2026-08-03 06:04:02 | INFO     | Bắt đầu chờ 24 giờ đến lần gửi tiếp theo...
+2026-08-03 06:04:02 | INFO     | ⏳ Còn lại: 24h 00m 00s
+2026-08-03 06:05:02 | INFO     | ⏳ Còn lại: 23h 59m 00s
+2026-08-03 06:06:02 | INFO     | ⏳ Còn lại: 23h 58m 00s
+2026-08-05 08:43:22 | INFO     | ==================================================
+2026-08-05 08:43:22 | INFO     | Telegram Auto Message Scheduler khởi động
+2026-08-05 08:43:22 | INFO     | ==================================================
+2026-08-05 08:43:23 | INFO     | Đang tạo / kết nối Telegram client...
+2026-08-05 08:43:23 | INFO     | Connecting to 91.108.56.114:443/TcpFull...
+2026-08-05 08:43:23 | INFO     | Connection to 91.108.56.114:443/TcpFull complete!
+2026-08-05 08:43:24 | INFO     | Đã có session hợp lệ. Bỏ qua đăng nhập.
+2026-08-05 08:43:24 | INFO     | Đang chạy với tài khoản: ☠︎︎𝑯𝒖̛𝒏𝒈_𝑶𝒇𝒇𝒑𝒚𝒔𝒐♚ (@Hungoffpyso)
+2026-08-05 08:43:24 | INFO     | Bắt đầu scheduler | Bot: @tuongtacmxh36_bot | Interval: 24h
+2026-08-05 08:43:24 | INFO     | Nội dung: /daily
+2026-08-05 08:43:24 | INFO     | Đang gửi tin nhắn...
+2026-08-05 08:43:25 | INFO     | Đã gửi thành công tới @tuongtacmxh36_bot: /daily
+2026-08-05 08:43:25 | INFO     | Gửi thành công lúc 2026-08-05 08:43:25
+2026-08-05 08:43:25 | INFO     | Bắt đầu chờ 24 giờ đến lần gửi tiếp theo...
+2026-08-05 08:43:25 | INFO     | ⏳ Còn lại: 24h 00m 00s
+2026-08-05 08:43:34 | INFO     | ==================================================
+2026-08-05 08:43:34 | INFO     | Telegram Auto Message Scheduler khởi động
+2026-08-05 08:43:34 | INFO     | ==================================================
+2026-08-05 08:43:35 | INFO     | Đang tạo / kết nối Telegram client...
+2026-08-05 08:43:35 | INFO     | Connecting to 91.108.56.114:443/TcpFull...
+2026-08-05 08:43:35 | INFO     | Connection to 91.108.56.114:443/TcpFull complete!
+2026-08-05 08:43:40 | WARNING  | Session database is locked (lần 1/5). Đợi 3s rồi thử lại...
+2026-08-05 08:43:43 | INFO     | User is already connected!
+2026-08-05 08:43:43 | INFO     | Đã có session hợp lệ. Bỏ qua đăng nhập.
+2026-08-05 08:43:48 | ERROR    | Session database is locked. Đợi 20 giây để giải phóng file...
+2026-08-05 08:44:08 | INFO     | Chuẩn bị vòng lặp khởi động lại...
+2026-08-05 08:44:08 | INFO     | Đang tạo / kết nối Telegram client...
+2026-08-05 08:44:08 | INFO     | Connecting to 91.108.56.114:443/TcpFull...
+2026-08-05 08:44:09 | INFO     | Connection to 91.108.56.114:443/TcpFull complete!
+2026-08-05 08:44:15 | WARNING  | Session database is locked (lần 1/5). Đợi 3s rồi thử lại...
+2026-08-05 08:44:18 | INFO     | User is already connected!
+2026-08-05 08:44:18 | ERROR    | Task was destroyed but it is pending!
+task: <Task pending name='Task-2' coro=<Connection._send_loop() done, defined at /data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/network/connection/connection.py:316> wait_for=<Future cancelled>>
+2026-08-05 08:44:18 | ERROR    | Task was destroyed but it is pending!
+task: <Task pending name='Task-3' coro=<Connection._recv_loop() running at /data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/network/connection/connection.py:361> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-08-05 08:44:18 | ERROR    | Task was destroyed but it is pending!
+task: <Task pending name='Task-4' coro=<MTProtoSender._send_loop() done, defined at /data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/network/mtprotosender.py:452> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-08-05 08:44:18 | ERROR    | Task was destroyed but it is pending!
+task: <Task pending name='Task-5' coro=<MTProtoSender._recv_loop() done, defined at /data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/network/mtprotosender.py:503> wait_for=<Future cancelled>>
+2026-08-05 08:44:18 | INFO     | Đã có session hợp lệ. Bỏ qua đăng nhập.
+2026-08-05 08:44:24 | ERROR    | Session database is locked. Đợi 20 giây để giải phóng file...
+2026-08-05 08:44:25 | INFO     | ⏳ Còn lại: 23h 59m 00s
+2026-08-05 08:44:44 | INFO     | Chuẩn bị vòng lặp khởi động lại...
+2026-08-05 08:44:44 | INFO     | Đang tạo / kết nối Telegram client...
+2026-08-05 08:44:44 | INFO     | Connecting to 91.108.56.114:443/TcpFull...
+2026-08-05 08:44:44 | INFO     | Connection to 91.108.56.114:443/TcpFull complete!
+2026-08-05 08:44:45 | INFO     | Đã có session hợp lệ. Bỏ qua đăng nhập.
+2026-08-05 08:44:45 | INFO     | Đang chạy với tài khoản: ☠︎︎𝑯𝒖̛𝒏𝒈_𝑶𝒇𝒇𝒑𝒚𝒔𝒐♚ (@Hungoffpyso)
+2026-08-05 08:44:45 | INFO     | Bắt đầu scheduler | Bot: @tuongtacmxh36_bot | Interval: 24h
+2026-08-05 08:44:45 | INFO     | Nội dung: /daily
+2026-08-05 08:44:45 | INFO     | Chưa đến giờ. Lần gửi tiếp theo: 2026-08-06 08:43:25
+2026-08-05 08:44:45 | INFO     | ⏳ Còn lại: 23h 58m 39s
+2026-08-05 08:45:25 | INFO     | Scheduler bị hủy.
+2026-08-05 08:45:25 | INFO     | Disconnecting from 91.108.56.114:443/TcpFull...
+2026-08-05 08:45:25 | INFO     | Disconnection from 91.108.56.114:443/TcpFull complete!
+2026-08-05 08:45:26 | INFO     | ⏳ Còn lại: 23h 58m 00s
+2026-08-05 08:45:28 | ERROR    | unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-3' coro=<Connection._recv_loop() done, defined at /data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/network/connection/connection.py:334> exception=GeneratorExit()>
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.14/site-packages/telethon/network/connection/connection.py", line 341, in _recv_loop
+    data = await self._recv()
+           ^^^^^^^^^^^^^^^^^^
+GeneratorExit
+2026-08-05 08:46:26 | INFO     | ⏳ Còn lại: 23h 57m 00s
+2026-08-05 08:47:26 | INFO     | ⏳ Còn lại: 23h 56m 00s
+2026-08-05 08:48:26 | INFO     | ⏳ Còn lại: 23h 55m 00s
+2026-08-05 08:49:26 | INFO     | ⏳ Còn lại: 23h 54m 00s
+2026-08-05 08:50:26 | INFO     | ⏳ Còn lại: 23h 53m 00s
+2026-08-05 08:51:26 | INFO     | ⏳ Còn lại: 23h 52m 00s
+2026-08-05 08:52:26 | INFO     | ⏳ Còn lại: 23h 51m 00s
+2026-08-05 08:53:26 | INFO     | ⏳ Còn lại: 23h 50m 00s
+2026-08-05 08:54:26 | INFO     | ⏳ Còn lại: 23h 49m 00s
+2026-08-05 08:55:26 | INFO     | ⏳ Còn lại: 23h 48m 00s
+2026-08-05 08:56:27 | INFO     | ⏳ Còn lại: 23h 47m 00s
+2026-08-05 08:57:27 | INFO     | ⏳ Còn lại: 23h 46m 00s
+2026-08-05 08:58:27 | INFO     | ⏳ Còn lại: 23h 45m 00s
+2026-08-05 08:59:27 | INFO     | ⏳ Còn lại: 23h 44m 00s
+2026-08-05 09:00:27 | INFO     | ⏳ Còn lại: 23h 43m 00s
+2026-08-05 09:01:27 | INFO     | ⏳ Còn lại: 23h 42m 00s
+2026-08-05 09:02:27 | INFO     | ⏳ Còn lại: 23h 41m 00s
+2026-08-05 09:03:28 | INFO     | ⏳ Còn lại: 23h 40m 00s
+2026-08-05 09:04:28 | INFO     | ⏳ Còn lại: 23h 39m 00s
+2026-08-05 09:05:28 | INFO     | ⏳ Còn lại: 23h 38m 00s
+2026-08-05 09:06:28 | INFO     | ⏳ Còn lại: 23h 37m 00s
+2026-08-05 09:07:28 | INFO     | ⏳ Còn lại: 23h 36m 00s
+2026-08-05 09:08:28 | INFO     | ⏳ Còn lại: 23h 35m 00s
+2026-08-05 09:09:29 | INFO     | ⏳ Còn lại: 23h 34m 00s
+2026-08-05 09:10:29 | INFO     | ⏳ Còn lại: 23h 33m 00s
+2026-08-05 09:11:29 | INFO     | ⏳ Còn lại: 23h 32m 00s
+2026-08-05 09:12:29 | INFO     | ⏳ Còn lại: 23h 31m 00s
+2026-08-05 09:13:24 | INFO     | Got difference for channel 1635170908 updates
+2026-08-05 09:13:29 | INFO     | ⏳ Còn lại: 23h 30m 00s
+2026-08-05 09:14:29 | INFO     | ⏳ Còn lại: 23h 29m 00s
+2026-08-05 09:15:29 | INFO     | ⏳ Còn lại: 23h 28m 00s
+2026-08-05 09:16:29 | INFO     | ⏳ Còn lại: 23h 27m 00s
+2026-08-05 09:17:29 | INFO     | ⏳ Còn lại: 23h 26m 00s
+2026-08-05 09:18:30 | INFO     | ⏳ Còn lại: 23h 25m 00s
+2026-08-05 09:19:25 | INFO     | Scheduler bị hủy.
+2026-08-05 09:19:25 | INFO     | Disconnecting from 91.108.56.114:443/TcpFull...
+2026-08-05 09:19:25 | INFO     | Disconnection from 91.108.56.114:443/TcpFull complete!
+2026-08-05 09:19:28 | INFO     | Chuẩn bị vòng lặp khởi động lại...
+2026-08-05 09:19:28 | INFO     | Đang tạo / kết nối Telegram client...
+2026-08-05 09:19:28 | INFO     | Connecting to 91.108.56.114:443/TcpFull...
+2026-08-05 09:19:28 | INFO     | Connection to 91.108.56.114:443/TcpFull complete!
+2026-08-05 09:19:29 | INFO     | Đã có session hợp lệ. Bỏ qua đăng nhập.
+2026-08-05 09:19:29 | INFO     | Đang chạy với tài khoản: ☠︎︎𝑯𝒖̛𝒏𝒈_𝑶𝒇𝒇𝒑𝒚𝒔𝒐♚ (@Hungoffpyso)
+2026-08-05 09:19:29 | INFO     | Bắt đầu scheduler | Bot: @tuongtacmxh36_bot | Interval: 24h
+2026-08-05 09:19:29 | INFO     | Nội dung: /daily
+2026-08-05 09:19:29 | INFO     | Chưa đến giờ. Lần gửi tiếp theo: 2026-08-06 08:43:25
+2026-08-05 09:19:29 | INFO     | ⏳ Còn lại: 23h 23m 55s
+2026-08-05 09:19:31 | INFO     | Scheduler bị hủy.
+2026-08-05 09:19:31 | INFO     | Disconnecting from 91.108.56.114:443/TcpFull...
+2026-08-05 09:19:31 | INFO     | Disconnection from 91.108.56.114:443/TcpFull complete!
+2026-08-05 09:19:33 | ERROR    | Task was destroyed but it is pending!
+task: <Task cancelling name='Task-1' coro=<main() done, defined at /storage/emulated/0/Download/bot/main.py:513> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at /data/data/com.termux/files/usr/lib/python3.14/asyncio/tasks.py:812]>
+2026-08-06 07:04:31 | INFO     | ==================================================
+2026-08-06 07:04:31 | INFO     | Telegram Auto Message Scheduler khởi động
+2026-08-06 07:04:31 | INFO     | ==================================================
+2026-08-06 07:04:31 | INFO     | Đang tạo / kết nối Telegram client...
+2026-08-06 07:04:31 | INFO     | Connecting to 91.108.56.114:443/TcpFull...
+2026-08-06 07:04:31 | INFO     | Connection to 91.108.56.114:443/TcpFull complete!
+2026-08-06 07:04:32 | INFO     | Đã có session hợp lệ. Bỏ qua đăng nhập.
+2026-08-06 07:04:32 | INFO     | Đang chạy với tài khoản: ☠︎︎𝑯𝒖̛𝒏𝒈_𝑶𝒇𝒇𝒑𝒚𝒔𝒐♚ (@Hungoffpyso)
+2026-08-06 07:04:33 | INFO     | Bắt đầu scheduler | Bot: @tuongtacmxh36_bot | Interval: 24h
+2026-08-06 07:04:33 | INFO     | Nội dung: /daily
+2026-08-06 07:04:33 | INFO     | Chưa đến giờ. Lần gửi tiếp theo: 2026-08-06 08:43:25
+2026-08-06 07:04:33 | INFO     | ⏳ Còn lại: 1h 38m 51s
+2026-08-06 07:05:33 | INFO     | ⏳ Còn lại: 1h 37m 51s
+2026-08-06 07:06:33 | INFO     | ⏳ Còn lại: 1h 36m 51s
+2026-08-06 07:07:33 | INFO     | ⏳ Còn lại: 1h 35m 51s
+2026-08-06 07:08:33 | INFO     | ⏳ Còn lại: 1h 34m 51s
+2026-08-06 07:09:33 | INFO     | ⏳ Còn lại: 1h 33m 51s
+2026-08-06 07:10:33 | INFO     | ⏳ Còn lại: 1h 32m 51s
+2026-08-06 07:11:33 | INFO     | ⏳ Còn lại: 1h 31m 51s
+2026-08-06 07:12:33 | INFO     | ⏳ Còn lại: 1h 30m 51s
+2026-08-06 07:13:33 | INFO     | ⏳ Còn lại: 1h 29m 51s
+2026-08-06 07:14:33 | INFO     | ⏳ Còn lại: 1h 28m 51s
+2026-08-06 07:15:33 | INFO     | ⏳ Còn lại: 1h 27m 51s
+2026-08-06 07:16:33 | INFO     | ⏳ Còn lại: 1h 26m 51s
+2026-08-06 07:17:34 | INFO     | ⏳ Còn lại: 1h 25m 51s
+2026-08-06 07:18:34 | INFO     | ⏳ Còn lại: 1h 24m 51s
+2026-08-06 07:19:34 | INFO     | ⏳ Còn lại: 1h 23m 51s
+2026-08-06 07:20:34 | INFO     | ⏳ Còn lại: 1h 22m 51s
+2026-08-06 07:21:34 | INFO     | ⏳ Còn lại: 1h 21m 51s
+2026-08-06 07:22:34 | INFO     | ⏳ Còn lại: 1h 20m 51s
+2026-08-06 07:23:34 | INFO     | ⏳ Còn lại: 1h 19m 51s
+2026-08-06 07:24:34 | INFO     | ⏳ Còn lại: 1h 18m 51s
+2026-08-06 07:25:35 | INFO     | ⏳ Còn lại: 1h 17m 51s
+2026-08-06 07:26:35 | INFO     | ⏳ Còn lại: 1h 16m 51s
+2026-08-06 07:27:35 | INFO     | ⏳ Còn lại: 1h 15m 51s
+2026-08-06 07:28:35 | INFO     | ⏳ Còn lại: 1h 14m 51s
+2026-08-06 07:29:35 | INFO     | ⏳ Còn lại: 1h 13m 51s
+2026-08-06 07:30:35 | INFO     | ⏳ Còn lại: 1h 12m 51s
+2026-08-06 07:31:35 | INFO     | ⏳ Còn lại: 1h 11m 51s
+2026-08-06 07:32:35 | INFO     | ⏳ Còn lại: 1h 10m 51s
+2026-08-06 07:33:36 | INFO     | ⏳ Còn lại: 1h 09m 51s
+2026-08-06 07:34:33 | INFO     | Got difference for account updates
+2026-08-06 07:34:36 | INFO     | ⏳ Còn lại: 1h 08m 51s
+2026-08-06 07:35:36 | INFO     | ⏳ Còn lại: 1h 07m 51s
+2026-08-06 07:36:33 | INFO     | Got difference for channel 1635170908 updates
+2026-08-06 07:36:36 | INFO     | ⏳ Còn lại: 1h 06m 51s
+2026-08-06 07:37:36 | INFO     | ⏳ Còn lại: 1h 05m 51s
+2026-08-06 07:38:36 | INFO     | ⏳ Còn lại: 1h 04m 51s
+2026-08-06 07:39:36 | INFO     | ⏳ Còn lại: 1h 03m 51s
+2026-08-06 07:40:36 | INFO     | ⏳ Còn lại: 1h 02m 51s
+2026-08-06 07:41:36 | INFO     | ⏳ Còn lại: 1h 01m 51s
+2026-08-06 07:42:36 | INFO     | ⏳ Còn lại: 1h 00m 51s
+2026-08-06 07:43:36 | INFO     | ⏳ Còn lại: 59m 51s
+2026-08-06 07:44:36 | INFO     | ⏳ Còn lại: 58m 51s
+2026-08-06 07:45:37 | INFO     | ⏳ Còn lại: 57m 51s
+2026-08-06 07:46:37 | INFO     | ⏳ Còn lại: 56m 51s
+2026-08-06 07:47:37 | INFO     | ⏳ Còn lại: 55m 51s
+2026-08-06 07:48:37 | INFO     | ⏳ Còn lại: 54m 51s
+2026-08-06 07:49:33 | INFO     | Got difference for account updates
+2026-08-06 07:49:37 | INFO     | ⏳ Còn lại: 53m 51s
+2026-08-06 07:50:37 | INFO     | ⏳ Còn lại: 52m 51s
+2026-08-06 07:51:33 | INFO     | Got difference for channel 1635170908 updates
+2026-08-06 07:51:37 | INFO     | ⏳ Còn lại: 51m 51s
+2026-08-06 07:52:37 | INFO     | ⏳ Còn lại: 50m 51s
+2026-08-06 07:53:37 | INFO     | ⏳ Còn lại: 49m 51s
+2026-08-06 07:54:37 | INFO     | ⏳ Còn lại: 48m 51s
+2026-08-06 07:55:37 | INFO     | ⏳ Còn lại: 47m 51s
+2026-08-06 07:56:37 | INFO     | ⏳ Còn lại: 46m 51s
+2026-08-06 07:57:38 | INFO     | ⏳ Còn lại: 45m 51s
+2026-08-06 07:58:38 | INFO     | ⏳ Còn lại: 44m 51s
+2026-08-06 07:59:38 | INFO     | ⏳ Còn lại: 43m 51s
+2026-08-06 08:00:38 | INFO     | ⏳ Còn lại: 42m 51s
+2026-08-06 08:01:38 | INFO     | ⏳ Còn lại: 41m 51s
+2026-08-06 08:02:38 | INFO     | ⏳ Còn lại: 40m 51s
+2026-08-06 08:03:38 | INFO     | ⏳ Còn lại: 39m 51s
+2026-08-06 08:04:34 | INFO     | Got difference for account updates
+2026-08-06 08:04:38 | INFO     | ⏳ Còn lại: 38m 51s
+2026-08-06 08:05:38 | INFO     | ⏳ Còn lại: 37m 51s
+2026-08-06 08:06:38 | INFO     | ⏳ Còn lại: 36m 51s
+2026-08-06 08:07:38 | INFO     | ⏳ Còn lại: 35m 51s
+2026-08-06 08:08:39 | INFO     | ⏳ Còn lại: 34m 51s
+2026-08-06 08:09:39 | INFO     | ⏳ Còn lại: 33m 51s
+2026-08-06 08:10:39 | INFO     | ⏳ Còn lại: 32m 51s
+2026-08-06 08:11:39 | INFO     | ⏳ Còn lại: 31m 51s
+2026-08-06 08:12:39 | INFO     | ⏳ Còn lại: 30m 51s
+2026-08-06 08:13:39 | INFO     | ⏳ Còn lại: 29m 51s
+2026-08-06 08:14:39 | INFO     | ⏳ Còn lại: 28m 51s
+2026-08-06 08:15:39 | INFO     | ⏳ Còn lại: 27m 51s
+2026-08-06 08:16:39 | INFO     | ⏳ Còn lại: 26m 51s
+2026-08-06 08:17:39 | INFO     | ⏳ Còn lại: 25m 51s
+2026-08-06 08:18:39 | INFO     | ⏳ Còn lại: 24m 51s
+2026-08-06 08:19:34 | INFO     | Got difference for account updates
+2026-08-06 08:19:34 | INFO     | Got difference for channel 3836513948 updates
+2026-08-06 08:19:40 | INFO     | ⏳ Còn lại: 23m 51s
+2026-08-06 08:20:40 | INFO     | ⏳ Còn lại: 22m 51s
+2026-08-06 08:21:40 | INFO     | ⏳ Còn lại: 21m 51s
+2026-08-06 08:22:40 | INFO     | ⏳ Còn lại: 20m 51s
+2026-08-06 08:23:40 | INFO     | ⏳ Còn lại: 19m 51s
+2026-08-06 08:24:40 | INFO     | ⏳ Còn lại: 18m 51s
+2026-08-06 08:25:40 | INFO     | ⏳ Còn lại: 17m 51s
+2026-08-06 08:26:40 | INFO     | ⏳ Còn lại: 16m 51s
+2026-08-06 08:27:40 | INFO     | ⏳ Còn lại: 15m 51s
+2026-08-06 08:28:40 | INFO     | ⏳ Còn lại: 14m 51s
+2026-08-06 08:29:41 | INFO     | ⏳ Còn lại: 13m 51s
+2026-08-06 08:30:41 | INFO     | ⏳ Còn lại: 12m 51s
+2026-08-06 08:31:41 | INFO     | ⏳ Còn lại: 11m 51s
+2026-08-06 08:32:41 | INFO     | ⏳ Còn lại: 10m 51s
+2026-08-06 08:33:41 | INFO     | ⏳ Còn lại: 9m 51s
+2026-08-06 08:34:34 | INFO     | Got difference for account updates
+2026-08-06 08:34:34 | INFO     | Got difference for channel 1635170908 updates
+2026-08-06 08:34:41 | INFO     | ⏳ Còn lại: 8m 51s
+2026-08-06 08:35:41 | INFO     | ⏳ Còn lại: 7m 51s
+2026-08-06 08:36:41 | INFO     | ⏳ Còn lại: 6m 51s
+2026-08-06 08:37:41 | INFO     | ⏳ Còn lại: 5m 51s
+2026-08-06 08:38:40 | INFO     | Got difference for channel 2234645333 updates
+2026-08-06 08:38:41 | INFO     | ⏳ Còn lại: 4m 51s
+2026-08-06 08:39:41 | INFO     | ⏳ Còn lại: 3m 51s
+2026-08-06 08:40:42 | INFO     | ⏳ Còn lại: 2m 51s
+2026-08-06 08:41:42 | INFO     | ⏳ Còn lại: 1m 51s
+2026-08-06 08:42:42 | INFO     | ⏳ Còn lại: 51s
+2026-08-06 08:43:34 | INFO     | Đang gửi tin nhắn...
+2026-08-06 08:43:34 | INFO     | Đã gửi thành công tới @tuongtacmxh36_bot: /daily
+2026-08-06 08:43:34 | INFO     | Gửi thành công lúc 2026-08-06 08:43:34
+2026-08-06 08:43:34 | INFO     | Bắt đầu chờ 24 giờ đến lần gửi tiếp theo...
+2026-08-06 08:43:34 | INFO     | ⏳ Còn lại: 24h 00m 00s
+2026-08-06 08:44:34 | INFO     | ⏳ Còn lại: 23h 59m 00s
+2026-08-06 08:45:34 | INFO     | ⏳ Còn lại: 23h 58m 00s
+2026-08-06 08:46:34 | INFO     | ⏳ Còn lại: 23h 57m 00s
+2026-08-06 08:47:34 | INFO     | ⏳ Còn lại: 23h 56m 00s
+2026-08-06 08:48:34 | INFO     | ⏳ Còn lại: 23h 55m 00s
+2026-08-06 08:49:34 | INFO     | ⏳ Còn lại: 23h 54m 00s
+2026-08-06 08:50:34 | INFO     | ⏳ Còn lại: 23h 53m 00s
+2026-08-06 08:51:34 | INFO     | ⏳ Còn lại: 23h 52m 00s
+2026-08-06 08:52:34 | INFO     | ⏳ Còn lại: 23h 51m 00s
+2026-08-06 08:53:35 | INFO     | ⏳ Còn lại: 23h 50m 00s
+2026-08-06 08:54:35 | INFO     | ⏳ Còn lại: 23h 49m 00s
+2026-08-06 08:55:35 | INFO     | ⏳ Còn lại: 23h 48m 00s
+2026-08-06 08:56:35 | INFO     | ⏳ Còn lại: 23h 47m 00s
+2026-08-06 08:57:35 | INFO     | ⏳ Còn lại: 23h 46m 00s
+2026-08-06 08:58:35 | INFO     | ⏳ Còn lại: 23h 45m 00s
+2026-08-06 08:59:35 | INFO     | ⏳ Còn lại: 23h 44m 00s
+2026-08-06 09:00:35 | INFO     | ⏳ Còn lại: 23h 43m 00s
+2026-08-06 09:01:35 | INFO     | ⏳ Còn lại: 23h 42m 00s
+2026-08-06 09:02:35 | INFO     | ⏳ Còn lại: 23h 41m 00s
+2026-08-06 09:03:35 | INFO     | ⏳ Còn lại: 23h 40m 00s
+2026-08-06 09:04:35 | INFO     | ⏳ Còn lại: 23h 39m 00s
+2026-08-06 09:05:35 | INFO     | ⏳ Còn lại: 23h 38m 00s
+2026-08-06 09:06:35 | INFO     | ⏳ Còn lại: 23h 37m 00s
+2026-08-06 09:07:35 | INFO     | ⏳ Còn lại: 23h 36m 00s
+2026-08-06 09:08:35 | INFO     | ⏳ Còn lại: 23h 35m 00s
+2026-08-06 09:09:35 | INFO     | ⏳ Còn lại: 23h 34m 00s
+2026-08-06 09:10:35 | INFO     | ⏳ Còn lại: 23h 33m 00s
+2026-08-06 09:11:35 | INFO     | ⏳ Còn lại: 23h 32m 00s
+2026-08-06 09:12:35 | INFO     | ⏳ Còn lại: 23h 31m 00s
+2026-08-06 09:13:35 | INFO     | ⏳ Còn lại: 23h 30m 00s
+2026-08-06 09:14:36 | INFO     | ⏳ Còn lại: 23h 29m 00s
+2026-08-06 09:15:36 | INFO     | ⏳ Còn lại: 23h 28m 00s
+2026-08-06 09:16:36 | INFO     | ⏳ Còn lại: 23h 27m 00s
+2026-08-06 09:17:36 | INFO     | ⏳ Còn lại: 23h 26m 00s
+2026-08-06 09:18:36 | INFO     | ⏳ Còn lại: 23h 25m 00s
+2026-08-06 09:19:35 | INFO     | Got difference for account updates
+2026-08-06 09:19:36 | INFO     | ⏳ Còn lại: 23h 24m 00s
+2026-08-06 09:20:36 | INFO     | ⏳ Còn lại: 23h 23m 00s
+2026-08-06 09:21:36 | INFO     | ⏳ Còn lại: 23h 22m 00s
+2026-08-06 09:22:36 | INFO     | ⏳ Còn lại: 23h 21m 00s
+2026-08-06 09:23:36 | INFO     | ⏳ Còn lại: 23h 20m 00s
+2026-08-06 09:24:36 | INFO     | ⏳ Còn lại: 23h 19m 00s
+2026-08-06 09:25:36 | INFO     | ⏳ Còn lại: 23h 18m 00s
+2026-08-06 09:26:36 | INFO     | ⏳ Còn lại: 23h 17m 00s
+2026-08-06 09:27:36 | INFO     | ⏳ Còn lại: 23h 16m 00s
+2026-08-06 09:28:36 | INFO     | ⏳ Còn lại: 23h 15m 00s
+2026-08-06 09:29:36 | INFO     | ⏳ Còn lại: 23h 14m 00s
+2026-08-06 09:30:36 | INFO     | ⏳ Còn lại: 23h 13m 00s
+2026-08-06 09:31:36 | INFO     | ⏳ Còn lại: 23h 12m 00s
+2026-08-06 09:32:36 | INFO     | ⏳ Còn lại: 23h 11m 00s
+2026-08-06 09:33:36 | INFO     | ⏳ Còn lại: 23h 10m 00s
+2026-08-06 09:34:36 | INFO     | ⏳ Còn lại: 23h 09m 00s
+2026-08-06 09:35:36 | INFO     | ⏳ Còn lại: 23h 08m 00s
+2026-08-06 09:36:36 | INFO     | ⏳ Còn lại: 23h 07m 00s
+2026-08-06 09:37:37 | INFO     | ⏳ Còn lại: 23h 06m 00s
+2026-08-06 09:38:37 | INFO     | ⏳ Còn lại: 23h 05m 00s
+2026-08-06 09:39:37 | INFO     | ⏳ Còn lại: 23h 04m 00s
+2026-08-06 09:40:37 | INFO     | ⏳ Còn lại: 23h 03m 00s
+2026-08-06 09:41:37 | INFO     | ⏳ Còn lại: 23h 02m 00s
+2026-08-06 09:42:37 | INFO     | ⏳ Còn lại: 23h 01m 00s
+2026-08-06 09:43:37 | INFO     | ⏳ Còn lại: 23h 00m 00s
+2026-08-06 09:44:37 | INFO     | ⏳ Còn lại: 22h 59m 00s
+2026-08-06 09:45:37 | INFO     | ⏳ Còn lại: 22h 58m 00s
+2026-08-06 09:46:23 | INFO     | Got difference for channel 3836513948 updates
+2026-08-06 09:46:37 | INFO     | ⏳ Còn lại: 22h 57m 00s
+2026-08-06 09:47:37 | INFO     | ⏳ Còn lại: 22h 56m 00s
+2026-08-06 09:48:37 | INFO     | ⏳ Còn lại: 22h 55m 00s
+2026-08-06 09:49:37 | INFO     | ⏳ Còn lại: 22h 54m 00s
+2026-08-06 09:50:37 | INFO     | ⏳ Còn lại: 22h 53m 00s
+2026-08-06 09:51:37 | INFO     | ⏳ Còn lại: 22h 52m 00s
+2026-08-06 09:52:37 | INFO     | ⏳ Còn lại: 22h 51m 00s
+2026-08-06 09:53:37 | INFO     | ⏳ Còn lại: 22h 50m 00s
+2026-08-06 09:54:37 | INFO     | ⏳ Còn lại: 22h 49m 00s
+2026-08-06 09:55:37 | INFO     | ⏳ Còn lại: 22h 48m 00s
+2026-08-06 09:56:37 | INFO     | ⏳ Còn lại: 22h 47m 00s
+2026-08-06 09:57:37 | INFO     | ⏳ Còn lại: 22h 46m 00s
+2026-08-06 09:58:37 | INFO     | ⏳ Còn lại: 22h 45m 00s
+2026-08-06 09:59:37 | INFO     | ⏳ Còn lại: 22h 44m 00s
+2026-08-06 10:00:38 | INFO     | ⏳ Còn lại: 22h 43m 00s
+2026-08-06 10:01:38 | INFO     | ⏳ Còn lại: 22h 42m 00s
+2026-08-06 10:02:38 | INFO     | ⏳ Còn lại: 22h 41m 00s
+2026-08-06 10:03:38 | INFO     | ⏳ Còn lại: 22h 40m 00s
+2026-08-06 10:04:38 | INFO     | ⏳ Còn lại: 22h 39m 00s
+2026-08-06 10:05:38 | INFO     | ⏳ Còn lại: 22h 38m 00s
+2026-08-06 10:06:38 | INFO     | ⏳ Còn lại: 22h 37m 00s
+2026-08-06 10:07:38 | INFO     | ⏳ Còn lại: 22h 36m 00s
+2026-08-06 10:08:38 | INFO     | ⏳ Còn lại: 22h 35m 00s
+2026-08-06 10:09:38 | INFO     | ⏳ Còn lại: 22h 34m 00s
+2026-08-06 10:10:38 | INFO     | ⏳ Còn lại: 22h 33m 00s
+2026-08-06 10:11:38 | INFO     | ⏳ Còn lại: 22h 32m 00s
+2026-08-06 10:12:38 | INFO     | ⏳ Còn lại: 22h 31m 00s
+2026-08-06 10:13:38 | INFO     | ⏳ Còn lại: 22h 30m 00s
+2026-08-06 10:14:38 | INFO     | ⏳ Còn lại: 22h 29m 00s
+2026-08-06 10:15:38 | INFO     | ⏳ Còn lại: 22h 28m 00s
+2026-08-06 10:16:38 | INFO     | ⏳ Còn lại: 22h 27m 00s
+2026-08-06 10:17:38 | INFO     | ⏳ Còn lại: 22h 26m 00s
+2026-08-06 10:18:38 | INFO     | ⏳ Còn lại: 22h 25m 00s
+2026-08-06 10:19:38 | INFO     | ⏳ Còn lại: 22h 24m 00s
+2026-08-06 10:20:38 | INFO     | ⏳ Còn lại: 22h 23m 00s
+2026-08-06 10:21:38 | INFO     | ⏳ Còn lại: 22h 22m 00s
+2026-08-06 10:22:38 | INFO     | ⏳ Còn lại: 22h 21m 00s
+2026-08-06 10:23:38 | INFO     | ⏳ Còn lại: 22h 20m 00s
+2026-08-06 10:24:38 | INFO     | ⏳ Còn lại: 22h 19m 00s
+2026-08-06 10:25:39 | INFO     | ⏳ Còn lại: 22h 18m 00s
+2026-08-06 10:26:39 | INFO     | ⏳ Còn lại: 22h 17m 00s
+2026-08-06 10:27:39 | INFO     | ⏳ Còn lại: 22h 16m 00s
+2026-08-06 10:28:39 | INFO     | ⏳ Còn lại: 22h 15m 00s
+2026-08-06 10:29:39 | INFO     | ⏳ Còn lại: 22h 14m 00s
+2026-08-06 10:30:39 | INFO     | ⏳ Còn lại: 22h 13m 00s
+2026-08-06 10:31:39 | INFO     | ⏳ Còn lại: 22h 12m 00s
+2026-08-06 10:32:39 | INFO     | ⏳ Còn lại: 22h 11m 00s
+2026-08-06 10:33:39 | INFO     | ⏳ Còn lại: 22h 10m 00s
+2026-08-06 10:34:36 | INFO     | Got difference for channel 2234645333 updates
+2026-08-06 10:34:39 | INFO     | ⏳ Còn lại: 22h 09m 00s
+2026-08-06 10:35:39 | INFO     | ⏳ Còn lại: 22h 08m 00s
+2026-08-06 10:36:39 | INFO     | ⏳ Còn lại: 22h 07m 00s
+2026-08-06 10:37:39 | INFO     | ⏳ Còn lại: 22h 06m 00s
+2026-08-06 10:38:39 | INFO     | ⏳ Còn lại: 22h 05m 00s
+2026-08-06 10:39:39 | INFO     | ⏳ Còn lại: 22h 04m 00s
+2026-08-06 10:40:39 | INFO     | ⏳ Còn lại: 22h 03m 00s
+2026-08-06 10:41:39 | INFO     | ⏳ Còn lại: 22h 02m 00s
+2026-08-06 10:42:39 | INFO     | ⏳ Còn lại: 22h 01m 00s
+2026-08-06 10:43:39 | INFO     | ⏳ Còn lại: 22h 00m 00s
+2026-08-06 10:44:39 | INFO     | ⏳ Còn lại: 21h 59m 00s
+2026-08-06 10:45:39 | INFO     | ⏳ Còn lại: 21h 58m 00s
+2026-08-06 10:46:39 | INFO     | ⏳ Còn lại: 21h 57m 00s
+2026-08-06 10:47:39 | INFO     | ⏳ Còn lại: 21h 56m 00s
+2026-08-06 10:48:39 | INFO     | ⏳ Còn lại: 21h 55m 00s
+2026-08-06 10:49:36 | INFO     | Got difference for account updates
+2026-08-06 10:49:39 | INFO     | ⏳ Còn lại: 21h 54m 00s
+2026-08-06 10:50:40 | INFO     | ⏳ Còn lại: 21h 53m 00s
+2026-08-06 10:51:40 | INFO     | ⏳ Còn lại: 21h 52m 00s
+2026-08-06 10:52:40 | INFO     | ⏳ Còn lại: 21h 51m 00s
+2026-08-06 10:53:40 | INFO     | ⏳ Còn lại: 21h 50m 00s
+2026-08-06 10:54:40 | INFO     | ⏳ Còn lại: 21h 49m 00s
+2026-08-06 10:55:40 | INFO     | ⏳ Còn lại: 21h 48m 00s
+2026-08-06 10:56:40 | INFO     | ⏳ Còn lại: 21h 47m 00s
+2026-08-06 10:57:40 | INFO     | ⏳ Còn lại: 21h 46m 00s
+2026-08-06 10:58:40 | INFO     | ⏳ Còn lại: 21h 45m 00s
+2026-08-06 10:59:40 | INFO     | ⏳ Còn lại: 21h 44m 00s
+2026-08-06 11:00:40 | INFO     | ⏳ Còn lại: 21h 43m 00s
+2026-08-06 11:01:40 | INFO     | ⏳ Còn lại: 21h 42m 00s
+2026-08-06 11:02:40 | INFO     | ⏳ Còn lại: 21h 41m 00s
+2026-08-06 11:03:40 | INFO     | ⏳ Còn lại: 21h 40m 00s
+2026-08-06 11:04:37 | INFO     | Got difference for account updates
+2026-08-06 11:04:37 | INFO     | Got difference for channel 1635170908 updates
+2026-08-06 11:04:40 | INFO     | ⏳ Còn lại: 21h 39m 00s
+2026-08-06 11:05:40 | INFO     | ⏳ Còn lại: 21h 38m 00s
+2026-08-06 11:06:40 | INFO     | ⏳ Còn lại: 21h 37m 00s
+2026-08-06 11:07:40 | INFO     | ⏳ Còn lại: 21h 36m 00s
+2026-08-06 11:07:45 | WARNING  | Server closed the connection: [Errno 103] Software caused connection abort
+2026-08-06 11:07:45 | INFO     | Connection closed while receiving data: [Errno 103] Software caused connection abort
+2026-08-06 11:07:45 | INFO     | Closing current connection to begin reconnect...
+2026-08-06 11:07:45 | INFO     | <class 'ConnectionAbortedError'> during disconnect: [Errno 103] Software caused connection abort
+2026-08-06 11:07:45 | INFO     | Connecting to 91.108.56.114:443/TcpFull...
+2026-08-06 11:07:47 | INFO     | Connection to 91.108.56.114:443/TcpFull complete!
+2026-08-06 11:08:40 | INFO     | ⏳ Còn lại: 21h 35m 00s
+2026-08-06 11:09:40 | INFO     | ⏳ Còn lại: 21h 34m 00s
+2026-08-06 11:10:40 | INFO     | ⏳ Còn lại: 21h 33m 00s
+2026-08-06 11:11:41 | INFO     | ⏳ Còn lại: 21h 32m 00s
+2026-08-06 11:12:41 | INFO     | ⏳ Còn lại: 21h 31m 00s
+2026-08-06 11:13:41 | INFO     | ⏳ Còn lại: 21h 30m 00s
+2026-08-06 11:14:41 | INFO     | ⏳ Còn lại: 21h 29m 00s
+2026-08-06 11:15:41 | INFO     | ⏳ Còn lại: 21h 28m 00s
+2026-08-06 11:16:41 | INFO     | ⏳ Còn lại: 21h 27m 00s
+2026-08-06 11:17:41 | INFO     | ⏳ Còn lại: 21h 26m 00s
+2026-08-06 11:18:41 | INFO     | ⏳ Còn lại: 21h 25m 00s
+2026-08-06 11:19:28 | WARNING  | Server closed the connection: [Errno 103] Software caused connection abort
+2026-08-06 11:19:28 | INFO     | Connection closed while receiving data: [Errno 103] Software caused connection abort
+2026-08-06 11:19:28 | INFO     | Closing current connection to begin reconnect...
+2026-08-06 11:19:28 | INFO     | <class 'ConnectionAbortedError'> during disconnect: [Errno 103] Software caused connection abort
+2026-08-06 11:19:28 | INFO     | Connecting to 91.108.56.114:443/TcpFull...
+2026-08-06 11:19:28 | WARNING  | Attempt 1 at connecting failed: OSError: [Errno 101] Network is unreachable
+2026-08-06 11:19:29 | WARNING  | Attempt 2 at connecting failed: OSError: [Errno 101] Network is unreachable
+2026-08-06 11:19:30 | INFO     | Connection to 91.108.56.114:443/TcpFull complete!
+2026-08-06 11:19:41 | INFO     | ⏳ Còn lại: 21h 24m 00s
+2026-08-06 11:20:41 | INFO     | ⏳ Còn lại: 21h 23m 00s
+2026-08-06 11:21:41 | INFO     | ⏳ Còn lại: 21h 22m 00s
+2026-08-06 11:22:41 | INFO     | ⏳ Còn lại: 21h 21m 00s
+2026-08-06 11:23:41 | INFO     | ⏳ Còn lại: 21h 20m 00s
+2026-08-06 11:24:41 | INFO     | ⏳ Còn lại: 21h 19m 00s
+2026-08-06 11:25:41 | INFO     | ⏳ Còn lại: 21h 18m 00s
+2026-08-06 11:26:41 | INFO     | ⏳ Còn lại: 21h 17m 00s
+2026-08-06 11:27:41 | INFO     | ⏳ Còn lại: 21h 16m 00s
+2026-08-06 11:28:41 | INFO     | ⏳ Còn lại: 21h 15m 00s
+2026-08-06 11:28:57 | INFO     | Got difference for channel 3836513948 updates
+2026-08-06 11:29:41 | INFO     | ⏳ Còn lại: 21h 14m 00s
+2026-08-06 11:30:47 | INFO     | ⏳ Còn lại: 21h 13m 00s
+2026-08-06 11:31:51 | INFO     | ⏳ Còn lại: 21h 12m 00s
+2026-08-06 11:32:54 | INFO     | ⏳ Còn lại: 21h 11m 00s
+2026-08-06 11:33:54 | INFO     | ⏳ Còn lại: 21h 10m 00s
+2026-08-06 11:34:54 | INFO     | ⏳ Còn lại: 21h 09m 00s
+2026-08-06 11:35:54 | INFO     | ⏳ Còn lại: 21h 08m 00s
+2026-08-06 11:36:54 | INFO     | ⏳ Còn lại: 21h 07m 00s
+2026-08-06 11:37:54 | INFO     | ⏳ Còn lại: 21h 06m 00s
+2026-08-06 11:38:54 | INFO     | ⏳ Còn lại: 21h 05m 00s
+2026-08-06 11:39:54 | INFO     | ⏳ Còn lại: 21h 04m 00s
+2026-08-06 11:40:54 | INFO     | ⏳ Còn lại: 21h 03m 00s
+2026-08-06 11:41:54 | INFO     | ⏳ Còn lại: 21h 02m 00s
+2026-08-06 11:42:54 | INFO     | ⏳ Còn lại: 21h 01m 00s
+2026-08-06 11:43:55 | INFO     | ⏳ Còn lại: 21h 00m 00s
+2026-08-06 11:44:55 | INFO     | ⏳ Còn lại: 20h 59m 00s
+2026-08-06 11:45:55 | INFO     | ⏳ Còn lại: 20h 58m 00s
+2026-08-06 11:46:55 | INFO     | ⏳ Còn lại: 20h 57m 00s
+2026-08-06 11:47:55 | INFO     | ⏳ Còn lại: 20h 56m 00s
+2026-08-06 11:48:55 | INFO     | ⏳ Còn lại: 20h 55m 00s
+2026-08-06 11:49:55 | INFO     | ⏳ Còn lại: 20h 54m 00s
+2026-08-06 11:50:55 | INFO     | ⏳ Còn lại: 20h 53m 00s
+2026-08-06 11:51:55 | INFO     | ⏳ Còn lại: 20h 52m 00s
+2026-08-06 11:52:55 | INFO     | ⏳ Còn lại: 20h 51m 00s
+2026-08-06 11:53:55 | INFO     | ⏳ Còn lại: 20h 50m 00s
+2026-08-06 11:54:55 | INFO     | ⏳ Còn lại: 20h 49m 00s
+2026-08-06 11:55:55 | INFO     | ⏳ Còn lại: 20h 48m 00s
+2026-08-06 11:56:55 | INFO     | ⏳ Còn lại: 20h 47m 00s
+2026-08-06 11:57:55 | INFO     | ⏳ Còn lại: 20h 46m 00s
+2026-08-06 11:58:55 | INFO     | ⏳ Còn lại: 20h 45m 00s
+2026-08-06 11:59:55 | INFO     | ⏳ Còn lại: 20h 44m 00s
+2026-08-06 12:00:55 | INFO     | ⏳ Còn lại: 20h 43m 00s
+2026-08-06 12:01:55 | INFO     | ⏳ Còn lại: 20h 42m 00s
+2026-08-06 12:02:55 | INFO     | ⏳ Còn lại: 20h 41m 00s
+2026-08-06 12:03:55 | INFO     | ⏳ Còn lại: 20h 40m 00s
+2026-08-06 12:04:55 | INFO     | ⏳ Còn lại: 20h 39m 00s
+2026-08-06 12:05:55 | INFO     | ⏳ Còn lại: 20h 38m 00s
+2026-08-06 12:06:55 | INFO     | ⏳ Còn lại: 20h 37m 00s
+2026-08-06 12:07:55 | INFO     | ⏳ Còn lại: 20h 36m 00s
+2026-08-06 12:08:55 | INFO     | ⏳ Còn lại: 20h 35m 00s
+2026-08-06 12:09:56 | INFO     | ⏳ Còn lại: 20h 34m 00s
+2026-08-06 12:10:56 | INFO     | ⏳ Còn lại: 20h 33m 00s
+2026-08-06 12:11:56 | INFO     | ⏳ Còn lại: 20h 32m 00s
+2026-08-06 12:12:56 | INFO     | ⏳ Còn lại: 20h 31m 00s
+2026-08-06 12:13:56 | INFO     | ⏳ Còn lại: 20h 30m 00s
+2026-08-06 12:14:56 | INFO     | ⏳ Còn lại: 20h 29m 00s
+2026-08-06 12:15:56 | INFO     | ⏳ Còn lại: 20h 28m 00s
+2026-08-06 12:16:56 | INFO     | ⏳ Còn lại: 20h 27m 00s
+2026-08-06 12:17:56 | INFO     | ⏳ Còn lại: 20h 26m 00s
+2026-08-06 12:18:56 | INFO     | ⏳ Còn lại: 20h 25m 00s
+2026-08-06 12:19:56 | INFO     | ⏳ Còn lại: 20h 24m 00s
+2026-08-06 12:20:58 | INFO     | ⏳ Còn lại: 20h 23m 00s
+2026-08-06 12:22:02 | INFO     | ⏳ Còn lại: 20h 22m 00s
+2026-08-06 12:23:02 | INFO     | ⏳ Còn lại: 20h 21m 00s
+2026-08-06 12:24:02 | INFO     | ⏳ Còn lại: 20h 20m 00s
+2026-08-06 12:25:02 | INFO     | ⏳ Còn lại: 20h 19m 00s
+2026-08-06 12:26:02 | INFO     | ⏳ Còn lại: 20h 18m 00s
+2026-08-06 12:27:02 | INFO     | ⏳ Còn lại: 20h 17m 00s
+2026-08-06 12:28:02 | INFO     | ⏳ Còn lại: 20h 16m 00s
+2026-08-06 12:29:02 | INFO     | ⏳ Còn lại: 20h 15m 00s
+2026-08-06 12:30:02 | INFO     | ⏳ Còn lại: 20h 14m 00s
+2026-08-06 12:31:02 | INFO     | ⏳ Còn lại: 20h 13m 00s
+2026-08-06 12:32:02 | INFO     | ⏳ Còn lại: 20h 12m 00s
+2026-08-06 12:33:17 | INFO     | ⏳ Còn lại: 20h 11m 00s
+2026-08-06 12:34:34 | INFO     | ⏳ Còn lại: 20h 10m 00s
+2026-08-06 12:35:44 | INFO     | Got difference for account updates
+2026-08-06 12:35:53 | INFO     | ⏳ Còn lại: 20h 09m 00s
+2026-08-06 12:37:10 | INFO     | ⏳ Còn lại: 20h 08m 00s
+2026-08-06 12:38:28 | INFO     | ⏳ Còn lại: 20h 07m 00s
+2026-08-06 12:39:42 | INFO     | ⏳ Còn lại: 20h 06m 00s
+2026-08-06 12:40:42 | INFO     | ⏳ Còn lại: 20h 05m 00s
+2026-08-06 12:41:18 | WARNING  | Server closed the connection: [Errno 103] Software caused connection abort
+2026-08-06 12:41:18 | INFO     | Connection closed while receiving data: [Errno 103] Software caused connection abort
+2026-08-06 12:41:18 | INFO     | Closing current connection to begin reconnect...
+2026-08-06 12:41:18 | INFO     | <class 'ConnectionAbortedError'> during disconnect: [Errno 103] Software caused connection abort
+2026-08-06 12:41:18 | INFO     | Connecting to 91.108.56.114:443/TcpFull...
+2026-08-06 12:41:20 | WARNING  | Attempt 1 at connecting failed: OSError: [Errno 113] Connect call failed ('91.108.56.114', 443)
+2026-08-06 12:41:22 | WARNING  | Attempt 2 at connecting failed: OSError: [Errno 113] Connect call failed ('91.108.56.114', 443)
+2026-08-06 12:41:25 | WARNING  | Attempt 3 at connecting failed: OSError: [Errno 113] Connect call failed ('91.108.56.114', 443)
+2026-08-06 12:41:27 | WARNING  | Attempt 4 at connecting failed: OSError: [Errno 113] Connect call failed ('91.108.56.114', 443)
+2026-08-06 12:41:29 | WARNING  | Attempt 5 at connecting failed: OSError: [Errno 113] Connect call failed ('91.108.56.114', 443)
+2026-08-06 12:41:32 | WARNING  | Attempt 6 at connecting failed: OSError: [Errno 113] Connect call failed ('91.108.56.114', 443)
+2026-08-06 12:41:33 | INFO     | Failed reconnection attempt 1 with ConnectionError
+2026-08-06 12:41:34 | INFO     | Connecting to 91.108.56.114:443/TcpFull...
+2026-08-06 12:41:34 | WARNING  | Attempt 1 at connecting failed: OSError: [Errno 113] Connect call failed ('91.108.56.114', 443)
+2026-08-06 12:41:36 | WARNING  | Attempt 2 at connecting failed: OSError: [Errno 113] Connect call failed ('91.108.56.114', 443)
+2026-08-06 12:41:39 | WARNING  | Attempt 3 at connecting failed: OSError: [Errno 113] Connect call failed ('91.108.56.114', 443)
+2026-08-06 12:41:41 | WARNING  | Attempt 4 at connecting failed: OSError: [Errno 113] Connect call failed ('91.108.56.114', 443)
+2026-08-06 12:41:42 | WARNING  | Attempt 5 at connecting failed: OSError: [Errno 101] Network is unreachable
+2026-08-06 12:41:42 | INFO     | ⏳ Còn lại: 20h 04m 00s
+2026-08-06 12:41:43 | INFO     | Connection to 91.108.56.114:443/TcpFull complete!
+2026-08-06 12:41:56 | INFO     | Got difference for channel 1635170908 updates
+2026-08-06 12:42:42 | INFO     | ⏳ Còn lại: 20h 03m 00s
+2026-08-06 12:43:42 | INFO     | ⏳ Còn lại: 20h 02m 00s
+2026-08-06 12:44:42 | INFO     | ⏳ Còn lại: 20h 01m 00s
+2026-08-06 12:45:42 | INFO     | ⏳ Còn lại: 20h 00m 00s
+2026-08-06 12:46:42 | INFO     | ⏳ Còn lại: 19h 59m 00s
+2026-08-06 12:47:43 | INFO     | ⏳ Còn lại: 19h 58m 00s
+2026-08-06 12:48:43 | INFO     | ⏳ Còn lại: 19h 57m 00s
+2026-08-06 12:49:43 | INFO     | ⏳ Còn lại: 19h 56m 00s
+2026-08-06 12:50:43 | INFO     | ⏳ Còn lại: 19h 55m 00s
+2026-08-06 12:51:43 | INFO     | ⏳ Còn lại: 19h 54m 00s
+2026-08-06 12:52:43 | INFO     | ⏳ Còn lại: 19h 53m 00s
+2026-08-06 12:53:43 | INFO     | ⏳ Còn lại: 19h 52m 00s
+2026-08-06 12:54:43 | INFO     | ⏳ Còn lại: 19h 51m 00s
+2026-08-06 12:55:43 | INFO     | ⏳ Còn lại: 19h 50m 00s
+2026-08-06 12:56:43 | INFO     | ⏳ Còn lại: 19h 49m 00s
+2026-08-06 12:57:43 | INFO     | ⏳ Còn lại: 19h 48m 00s
+2026-08-06 12:58:43 | INFO     | ⏳ Còn lại: 19h 47m 00s
+2026-08-06 12:59:43 | INFO     | ⏳ Còn lại: 19h 46m 00s
+2026-08-06 13:00:43 | INFO     | ⏳ Còn lại: 19h 45m 00s
+2026-08-06 13:01:43 | INFO     | ⏳ Còn lại: 19h 44m 00s
+2026-08-06 13:02:43 | INFO     | ⏳ Còn lại: 19h 43m 00s
+2026-08-06 13:03:43 | INFO     | ⏳ Còn lại: 19h 42m 00s
+2026-08-06 13:04:43 | INFO     | ⏳ Còn lại: 19h 41m 00s
+2026-08-06 13:05:43 | INFO     | ⏳ Còn lại: 19h 40m 00s
+2026-08-06 13:06:43 | INFO     | ⏳ Còn lại: 19h 39m 00s
+2026-08-06 13:07:43 | INFO     | ⏳ Còn lại: 19h 38m 00s
+2026-08-06 13:08:43 | INFO     | ⏳ Còn lại: 19h 37m 00s
+2026-08-06 13:09:43 | INFO     | ⏳ Còn lại: 19h 36m 00s
+2026-08-06 13:10:43 | INFO     | ⏳ Còn lại: 19h 35m 00s
+2026-08-06 13:11:43 | INFO     | ⏳ Còn lại: 19h 34m 00s
+2026-08-06 13:12:43 | INFO     | ⏳ Còn lại: 19h 33m 00s
+2026-08-06 13:13:43 | INFO     | ⏳ Còn lại: 19h 32m 00s
+2026-08-06 13:14:44 | INFO     | ⏳ Còn lại: 19h 31m 00s
+2026-08-06 13:15:44 | INFO     | ⏳ Còn lại: 19h 30m 00s
+2026-08-06 13:16:44 | INFO     | ⏳ Còn lại: 19h 29m 00s
+2026-08-06 13:17:44 | INFO     | ⏳ Còn lại: 19h 28m 00s
+2026-08-06 13:18:44 | INFO     | ⏳ Còn lại: 19h 27m 00s
+2026-08-06 13:19:44 | INFO     | ⏳ Còn lại: 19h 26m 00s
+2026-08-06 13:20:44 | INFO     | ⏳ Còn lại: 19h 25m 00s
+2026-08-06 13:21:37 | INFO     | Got difference for account updates
+2026-08-06 13:21:44 | INFO     | ⏳ Còn lại: 19h 24m 00s
+2026-08-06 13:22:44 | INFO     | ⏳ Còn lại: 19h 23m 00s
+2026-08-06 13:23:44 | INFO     | ⏳ Còn lại: 19h 22m 00s
+2026-08-06 13:24:44 | INFO     | ⏳ Còn lại: 19h 21m 00s
+2026-08-06 13:25:44 | INFO     | ⏳ Còn lại: 19h 20m 00s
+2026-08-06 13:26:44 | INFO     | ⏳ Còn lại: 19h 19m 00s
+2026-08-06 13:26:57 | INFO     | Got difference for channel 1635170908 updates
+2026-08-06 13:27:44 | INFO     | ⏳ Còn lại: 19h 18m 00s
+2026-08-06 13:28:44 | INFO     | ⏳ Còn lại: 19h 17m 00s
+2026-08-06 13:29:44 | INFO     | ⏳ Còn lại: 19h 16m 00s
+2026-08-06 13:30:44 | INFO     | ⏳ Còn lại: 19h 15m 00s
+2026-08-06 13:30:57 | INFO     | Got difference for channel 3836513948 updates
+2026-08-06 13:31:44 | INFO     | ⏳ Còn lại: 19h 14m 00s
+2026-08-06 13:32:44 | INFO     | ⏳ Còn lại: 19h 13m 00s
+2026-08-06 13:33:44 | INFO     | ⏳ Còn lại: 19h 12m 00s
+2026-08-06 13:34:44 | INFO     | ⏳ Còn lại: 19h 11m 00s
+2026-08-06 13:35:44 | INFO     | ⏳ Còn lại: 19h 10m 00s
+2026-08-06 13:36:44 | INFO     | ⏳ Còn lại: 19h 09m 00s
+2026-08-06 13:37:44 | INFO     | ⏳ Còn lại: 19h 08m 00s
+2026-08-06 13:38:44 | INFO     | ⏳ Còn lại: 19h 07m 00s
+2026-08-06 13:39:44 | INFO     | ⏳ Còn lại: 19h 06m 00s
+2026-08-06 13:40:44 | INFO     | ⏳ Còn lại: 19h 05m 00s
+2026-08-06 13:41:44 | INFO     | ⏳ Còn lại: 19h 04m 00s
+2026-08-06 13:42:45 | INFO     | ⏳ Còn lại: 19h 03m 00s
+2026-08-06 13:43:45 | INFO     | ⏳ Còn lại: 19h 02m 00s
+2026-08-06 13:44:45 | INFO     | ⏳ Còn lại: 19h 01m 00s
+2026-08-06 13:45:45 | INFO     | ⏳ Còn lại: 19h 00m 00s
+2026-08-06 13:46:45 | INFO     | ⏳ Còn lại: 18h 59m 00s
+2026-08-06 13:47:45 | INFO     | ⏳ Còn lại: 18h 58m 00s
+2026-08-06 13:48:45 | INFO     | ⏳ Còn lại: 18h 57m 00s
+2026-08-06 13:49:45 | INFO     | ⏳ Còn lại: 18h 56m 00s
+2026-08-06 13:50:45 | INFO     | ⏳ Còn lại: 18h 55m 00s
+2026-08-06 13:51:45 | INFO     | ⏳ Còn lại: 18h 54m 00s
+2026-08-06 13:52:45 | INFO     | ⏳ Còn lại: 18h 53m 00s
+2026-08-06 13:53:45 | INFO     | ⏳ Còn lại: 18h 52m 00s
+2026-08-06 13:54:45 | INFO     | ⏳ Còn lại: 18h 51m 00s
+2026-08-06 13:55:45 | INFO     | ⏳ Còn lại: 18h 50m 00s
+2026-08-06 13:56:45 | INFO     | ⏳ Còn lại: 18h 49m 00s
+2026-08-06 13:56:57 | INFO     | Got difference for channel 1635170908 updates
+2026-08-06 13:57:45 | INFO     | ⏳ Còn lại: 18h 48m 00s
+2026-08-06 13:58:45 | INFO     | ⏳ Còn lại: 18h 47m 00s
+2026-08-06 13:59:45 | INFO     | ⏳ Còn lại: 18h 46m 00s
+2026-08-06 14:00:45 | INFO     | ⏳ Còn lại: 18h 45m 00s
+2026-08-06 14:01:45 | INFO     | ⏳ Còn lại: 18h 44m 00s
+2026-08-06 14:02:45 | INFO     | ⏳ Còn lại: 18h 43m 00s
+2026-08-06 14:03:45 | INFO     | ⏳ Còn lại: 18h 42m 00s
+2026-08-06 14:04:45 | INFO     | ⏳ Còn lại: 18h 41m 00s
+2026-08-06 14:05:45 | INFO     | ⏳ Còn lại: 18h 40m 00s
+2026-08-06 14:06:45 | INFO     | ⏳ Còn lại: 18h 39m 00s
+2026-08-06 14:07:45 | INFO     | ⏳ Còn lại: 18h 38m 00s
+2026-08-06 14:08:45 | INFO     | ⏳ Còn lại: 18h 37m 00s
+2026-08-06 14:09:45 | INFO     | ⏳ Còn lại: 18h 36m 00s
+2026-08-06 14:10:46 | INFO     | ⏳ Còn lại: 18h 35m 00s
+2026-08-06 14:11:46 | INFO     | ⏳ Còn lại: 18h 34m 00s
+2026-08-06 14:12:46 | INFO     | ⏳ Còn lại: 18h 33m 00s
+2026-08-06 14:13:46 | INFO     | ⏳ Còn lại: 18h 32m 00s
+2026-08-06 14:14:46 | INFO     | ⏳ Còn lại: 18h 31m 00s
+2026-08-06 14:15:46 | INFO     | ⏳ Còn lại: 18h 30m 00s
+2026-08-06 14:16:46 | INFO     | ⏳ Còn lại: 18h 29m 00s
+2026-08-06 14:17:46 | INFO     | ⏳ Còn lại: 18h 28m 00s
+2026-08-06 14:18:46 | INFO     | ⏳ Còn lại: 18h 27m 00s
+2026-08-06 14:19:46 | INFO     | ⏳ Còn lại: 18h 26m 00s
+2026-08-06 14:20:04 | INFO     | Got difference for channel 1635170908 updates
+2026-08-06 14:20:46 | INFO     | ⏳ Còn lại: 18h 25m 00s
+2026-08-06 14:21:38 | INFO     | Got difference for account updates
+2026-08-06 14:21:46 | INFO     | ⏳ Còn lại: 18h 24m 00s
+2026-08-06 14:22:46 | INFO     | ⏳ Còn lại: 18h 23m 00s
+2026-08-06 14:23:46 | INFO     | ⏳ Còn lại: 18h 22m 00s
+2026-08-06 14:24:46 | INFO     | ⏳ Còn lại: 18h 21m 00s
+2026-08-06 14:25:46 | INFO     | ⏳ Còn lại: 18h 20m 00s
+2026-08-06 14:26:46 | INFO     | ⏳ Còn lại: 18h 19m 00s
+2026-08-06 14:27:46 | INFO     | ⏳ Còn lại: 18h 18m 00s
+2026-08-06 14:28:46 | INFO     | ⏳ Còn lại: 18h 17m 00s
+2026-08-06 14:29:46 | INFO     | ⏳ Còn lại: 18h 16m 00s
+2026-08-06 14:30:46 | INFO     | ⏳ Còn lại: 18h 15m 00s
+2026-08-06 14:31:46 | INFO     | ⏳ Còn lại: 18h 14m 00s
+2026-08-06 14:32:46 | INFO     | ⏳ Còn lại: 18h 13m 00s
+2026-08-06 14:33:46 | INFO     | ⏳ Còn lại: 18h 12m 00s
+2026-08-06 14:34:46 | INFO     | ⏳ Còn lại: 18h 11m 00s
+2026-08-06 14:35:04 | INFO     | Got difference for channel 1635170908 updates
+2026-08-06 14:35:47 | INFO     | ⏳ Còn lại: 18h 10m 00s
+2026-08-06 14:36:47 | INFO     | ⏳ Còn lại: 18h 09m 00s
+2026-08-06 14:37:47 | INFO     | ⏳ Còn lại: 18h 08m 00s
+2026-08-06 14:38:47 | INFO     | ⏳ Còn lại: 18h 07m 00s
+2026-08-06 14:39:47 | INFO     | ⏳ Còn lại: 18h 06m 00s
+2026-08-06 14:40:47 | INFO     | ⏳ Còn lại: 18h 05m 00s
+2026-08-06 14:41:47 | INFO     | ⏳ Còn lại: 18h 04m 00s
+2026-08-06 14:42:47 | INFO     | ⏳ Còn lại: 18h 03m 00s
+2026-08-06 14:43:47 | INFO     | ⏳ Còn lại: 18h 02m 00s
+2026-08-06 14:44:47 | INFO     | ⏳ Còn lại: 18h 01m 00s
+2026-08-06 14:45:47 | INFO     | ⏳ Còn lại: 18h 00m 00s
+2026-08-06 14:46:47 | INFO     | ⏳ Còn lại: 17h 59m 00s
+2026-08-06 14:47:47 | INFO     | ⏳ Còn lại: 17h 58m 00s
+2026-08-06 14:48:47 | INFO     | ⏳ Còn lại: 17h 57m 00s
+2026-08-06 14:49:47 | INFO     | ⏳ Còn lại: 17h 56m 00s
+2026-08-06 14:50:47 | INFO     | ⏳ Còn lại: 17h 55m 00s
+2026-08-06 14:51:47 | INFO     | ⏳ Còn lại: 17h 54m 00s
+2026-08-06 14:52:47 | INFO     | ⏳ Còn lại: 17h 53m 00s
+2026-08-06 14:53:47 | INFO     | ⏳ Còn lại: 17h 52m 00s
+2026-08-06 14:54:47 | INFO     | ⏳ Còn lại: 17h 51m 00s
+2026-08-06 14:55:47 | INFO     | ⏳ Còn lại: 17h 50m 00s
+2026-08-06 14:56:47 | INFO     | ⏳ Còn lại: 17h 49m 00s
+2026-08-06 14:57:47 | INFO     | ⏳ Còn lại: 17h 48m 00s
+2026-08-06 14:58:47 | INFO     | ⏳ Còn lại: 17h 47m 00s
+2026-08-06 14:59:47 | INFO     | ⏳ Còn lại: 17h 46m 00s
+2026-08-06 15:00:47 | INFO     | ⏳ Còn lại: 17h 45m 00s
+2026-08-06 15:01:47 | INFO     | ⏳ Còn lại: 17h 44m 00s
+2026-08-06 15:02:47 | INFO     | ⏳ Còn lại: 17h 43m 00s
+2026-08-06 15:03:47 | INFO     | ⏳ Còn lại: 17h 42m 00s
+2026-08-06 15:04:47 | INFO     | ⏳ Còn lại: 17h 41m 00s
+2026-08-06 15:05:48 | INFO     | ⏳ Còn lại: 17h 40m 00s
+2026-08-06 15:06:39 | INFO     | Got difference for account updates
+2026-08-06 15:06:39 | INFO     | Got difference for channel 2234645333 updates
+2026-08-06 15:06:48 | INFO     | ⏳ Còn lại: 17h 39m 00s
+2026-08-06 15:07:48 | INFO     | ⏳ Còn lại: 17h 38m 00s
+2026-08-06 15:08:48 | INFO     | ⏳ Còn lại: 17h 37m 00s
+2026-08-06 15:09:48 | INFO     | ⏳ Còn lại: 17h 36m 00s
+2026-08-06 15:10:48 | INFO     | ⏳ Còn lại: 17h 35m 00s
+2026-08-06 15:11:48 | INFO     | ⏳ Còn lại: 17h 34m 00s
+2026-08-06 15:12:48 | INFO     | ⏳ Còn lại: 17h 33m 00s
+2026-08-06 15:13:48 | INFO     | ⏳ Còn lại: 17h 32m 00s
+2026-08-06 15:14:48 | INFO     | ⏳ Còn lại: 17h 31m 00s
+2026-08-06 15:15:48 | INFO     | ⏳ Còn lại: 17h 30m 00s
+2026-08-06 15:16:48 | INFO     | ⏳ Còn lại: 17h 29m 00s
+2026-08-06 15:17:48 | INFO     | ⏳ Còn lại: 17h 28m 00s
+2026-08-06 15:18:48 | INFO     | ⏳ Còn lại: 17h 27m 00s
+2026-08-06 15:19:48 | INFO     | ⏳ Còn lại: 17h 26m 00s
+2026-08-06 15:20:48 | INFO     | ⏳ Còn lại: 17h 25m 00s
+2026-08-06 15:21:48 | INFO     | ⏳ Còn lại: 17h 24m 00s
+2026-08-06 15:22:48 | INFO     | ⏳ Còn lại: 17h 23m 00s
+2026-08-06 15:23:48 | INFO     | ⏳ Còn lại: 17h 22m 00s
+2026-08-06 15:24:48 | INFO     | ⏳ Còn lại: 17h 21m 00s
+2026-08-06 15:25:48 | INFO     | ⏳ Còn lại: 17h 20m 00s
+2026-08-06 15:26:48 | INFO     | ⏳ Còn lại: 17h 19m 00s
+2026-08-06 15:27:48 | INFO     | ⏳ Còn lại: 17h 18m 00s
+2026-08-06 15:28:48 | INFO     | ⏳ Còn lại: 17h 17m 00s
+2026-08-06 15:29:48 | INFO     | ⏳ Còn lại: 17h 16m 00s
+2026-08-06 15:30:49 | INFO     | ⏳ Còn lại: 17h 15m 00s
+2026-08-06 15:31:49 | INFO     | ⏳ Còn lại: 17h 14m 00s
+2026-08-06 15:32:49 | INFO     | ⏳ Còn lại: 17h 13m 00s
+2026-08-06 15:33:49 | INFO     | ⏳ Còn lại: 17h 12m 00s
+2026-08-06 15:34:49 | INFO     | ⏳ Còn lại: 17h 11m 00s
+2026-08-06 15:35:05 | INFO     | Got difference for channel 1635170908 updates
+2026-08-06 15:35:49 | INFO     | ⏳ Còn lại: 17h 10m 00s
+2026-08-06 15:36:49 | INFO     | ⏳ Còn lại: 17h 09m 00s
+2026-08-06 15:37:49 | INFO     | ⏳ Còn lại: 17h 08m 00s
+2026-08-06 15:38:49 | INFO     | ⏳ Còn lại: 17h 07m 00s
+2026-08-06 15:39:49 | INFO     | ⏳ Còn lại: 17h 06m 00s
+2026-08-06 15:40:49 | INFO     | ⏳ Còn lại: 17h 05m 00s
+2026-08-06 15:41:49 | INFO     | ⏳ Còn lại: 17h 04m 00s
+2026-08-06 15:42:49 | INFO     | ⏳ Còn lại: 17h 03m 00s
+2026-08-06 15:43:49 | INFO     | ⏳ Còn lại: 17h 02m 00s
+2026-08-06 15:44:49 | INFO     | ⏳ Còn lại: 17h 01m 00s
+2026-08-06 15:45:49 | INFO     | ⏳ Còn lại: 17h 00m 00s
+2026-08-06 15:46:49 | INFO     | ⏳ Còn lại: 16h 59m 00s
+2026-08-06 15:47:49 | INFO     | ⏳ Còn lại: 16h 58m 00s
+2026-08-06 15:48:49 | INFO     | ⏳ Còn lại: 16h 57m 00s
+2026-08-06 15:49:49 | INFO     | ⏳ Còn lại: 16h 56m 00s
+2026-08-06 15:50:49 | INFO     | ⏳ Còn lại: 16h 55m 00s
+2026-08-06 15:51:49 | INFO     | ⏳ Còn lại: 16h 54m 00s
+2026-08-06 15:52:49 | INFO     | ⏳ Còn lại: 16h 53m 00s
+2026-08-06 15:53:49 | INFO     | ⏳ Còn lại: 16h 52m 00s
+2026-08-06 15:54:49 | INFO     | ⏳ Còn lại: 16h 51m 00s
+2026-08-06 15:55:49 | INFO     | ⏳ Còn lại: 16h 50m 00s
+2026-08-06 15:56:49 | INFO     | ⏳ Còn lại: 16h 49m 00s
+2026-08-06 15:57:49 | INFO     | ⏳ Còn lại: 16h 48m 00s
+2026-08-06 15:58:49 | INFO     | ⏳ Còn lại: 16h 47m 00s
+2026-08-06 15:59:49 | INFO     | ⏳ Còn lại: 16h 46m 00s
+2026-08-06 16:00:49 | INFO     | ⏳ Còn lại: 16h 45m 00s
+2026-08-06 16:01:49 | INFO     | ⏳ Còn lại: 16h 44m 00s
+2026-08-06 16:02:50 | INFO     | ⏳ Còn lại: 16h 43m 00s
+2026-08-06 16:03:50 | INFO     | ⏳ Còn lại: 16h 42m 00s
+2026-08-06 16:04:50 | INFO     | ⏳ Còn lại: 16h 41m 00s
+2026-08-06 16:05:05 | INFO     | Got difference for channel 1635170908 updates
+2026-08-06 16:05:50 | INFO     | ⏳ Còn lại: 16h 40m 00s
+2026-08-06 16:06:39 | INFO     | Got difference for account updates
+2026-08-06 16:06:50 | INFO     | ⏳ Còn lại: 16h 39m 00s
+2026-08-06 16:07:50 | INFO     | ⏳ Còn lại: 16h 38m 00s
+2026-08-06 16:08:50 | INFO     | ⏳ Còn lại: 16h 37m 00s
+2026-08-06 16:09:50 | INFO     | ⏳ Còn lại: 16h 36m 00s
+2026-08-06 16:10:50 | INFO     | ⏳ Còn lại: 16h 35m 00s
+2026-08-06 16:11:50 | INFO     | ⏳ Còn lại: 16h 34m 00s
+2026-08-06 16:12:50 | INFO     | ⏳ Còn lại: 16h 33m 00s
+2026-08-06 16:13:50 | INFO     | ⏳ Còn lại: 16h 32m 00s
+2026-08-06 16:14:50 | INFO     | ⏳ Còn lại: 16h 31m 00s
+2026-08-06 16:15:50 | INFO     | ⏳ Còn lại: 16h 30m 00s
+2026-08-06 16:16:50 | INFO     | ⏳ Còn lại: 16h 29m 00s
+2026-08-06 16:17:50 | INFO     | ⏳ Còn lại: 16h 28m 00s
+2026-08-06 16:18:50 | INFO     | ⏳ Còn lại: 16h 27m 00s
+2026-08-06 16:19:50 | INFO     | ⏳ Còn lại: 16h 26m 00s
+2026-08-06 16:20:06 | INFO     | Got difference for channel 1635170908 updates
+2026-08-06 16:20:50 | INFO     | ⏳ Còn lại: 16h 25m 00s
+2026-08-06 16:21:50 | INFO     | ⏳ Còn lại: 16h 24m 00s
+2026-08-06 16:22:50 | INFO     | ⏳ Còn lại: 16h 23m 00s
+2026-08-06 16:23:50 | INFO     | ⏳ Còn lại: 16h 22m 00s
+2026-08-06 16:24:50 | INFO     | ⏳ Còn lại: 16h 21m 00s
+2026-08-06 16:25:50 | INFO     | ⏳ Còn lại: 16h 20m 00s
+2026-08-06 16:26:50 | INFO     | ⏳ Còn lại: 16h 19m 00s
+2026-08-06 16:27:50 | INFO     | ⏳ Còn lại: 16h 18m 00s
+2026-08-06 16:28:50 | INFO     | ⏳ Còn lại: 16h 17m 00s
+2026-08-06 16:29:50 | INFO     | ⏳ Còn lại: 16h 16m 00s
+2026-08-06 16:30:51 | INFO     | ⏳ Còn lại: 16h 15m 00s
+2026-08-06 16:31:51 | INFO     | ⏳ Còn lại: 16h 14m 00s
+2026-08-06 16:32:51 | INFO     | ⏳ Còn lại: 16h 13m 00s
+2026-08-06 16:33:51 | INFO     | ⏳ Còn lại: 16h 12m 00s
+2026-08-06 16:34:51 | INFO     | ⏳ Còn lại: 16h 11m 00s
+2026-08-06 16:35:51 | INFO     | ⏳ Còn lại: 16h 10m 00s
+2026-08-06 16:36:51 | INFO     | ⏳ Còn lại: 16h 09m 00s
+2026-08-06 16:37:51 | INFO     | ⏳ Còn lại: 16h 08m 00s
+2026-08-06 16:38:51 | INFO     | ⏳ Còn lại: 16h 07m 00s
+2026-08-06 16:39:51 | INFO     | ⏳ Còn lại: 16h 06m 00s
+2026-08-06 16:40:51 | INFO     | ⏳ Còn lại: 16h 05m 00s
+2026-08-06 16:41:51 | INFO     | ⏳ Còn lại: 16h 04m 00s
+2026-08-06 16:42:51 | INFO     | ⏳ Còn lại: 16h 03m 00s
+2026-08-06 16:43:42 | INFO     | Got difference for channel 3836513948 updates
+2026-08-06 16:43:51 | INFO     | ⏳ Còn lại: 16h 02m 00s
+2026-08-06 16:44:51 | INFO     | ⏳ Còn lại: 16h 01m 00s
+2026-08-06 16:45:51 | INFO     | ⏳ Còn lại: 16h 00m 00s
+2026-08-06 16:46:51 | INFO     | ⏳ Còn lại: 15h 59m 00s
+2026-08-06 16:47:08 | INFO     | Got difference for channel 3836513948 updates
+2026-08-06 16:47:51 | INFO     | ⏳ Còn lại: 15h 58m 00s
+2026-08-06 16:48:51 | INFO     | ⏳ Còn lại: 15h 57m 00s
+2026-08-06 16:49:51 | INFO     | ⏳ Còn lại: 15h 56m 00s
+2026-08-06 16:50:06 | INFO     | Got difference for channel 1635170908 updates
+2026-08-06 16:50:07 | INFO     | Got difference for channel 3836513948 updates
+2026-08-06 16:50:51 | INFO     | ⏳ Còn lại: 15h 55m 00s
+2026-08-06 16:51:40 | INFO     | Got difference for account updates
+2026-08-06 16:51:51 | INFO     | ⏳ Còn lại: 15h 54m 00s
+2026-08-06 16:52:51 | INFO     | ⏳ Còn lại: 15h 53m 00s
+2026-08-06 16:53:51 | INFO     | ⏳ Còn lại: 15h 52m 00s
+2026-08-06 16:54:51 | INFO     | ⏳ Còn lại: 15h 51m 00s
+2026-08-06 16:55:51 | INFO     | ⏳ Còn lại: 15h 50m 00s
+2026-08-06 16:56:51 | INFO     | ⏳ Còn lại: 15h 49m 00s
+2026-08-06 16:57:51 | INFO     | ⏳ Còn lại: 15h 48m 00s
+2026-08-06 16:58:51 | INFO     | ⏳ Còn lại: 15h 47m 00s
+2026-08-06 16:59:51 | INFO     | ⏳ Còn lại: 15h 46m 00s
+2026-08-06 17:00:51 | INFO     | ⏳ Còn lại: 15h 45m 00s
+2026-08-06 17:01:51 | INFO     | ⏳ Còn lại: 15h 44m 00s
+2026-08-06 17:02:51 | INFO     | ⏳ Còn lại: 15h 43m 00s
+2026-08-06 17:03:51 | INFO     | ⏳ Còn lại: 15h 42m 00s
+2026-08-06 17:04:51 | INFO     | ⏳ Còn lại: 15h 41m 00s
+2026-08-06 17:05:51 | INFO     | ⏳ Còn lại: 15h 40m 00s
+2026-08-06 17:06:40 | INFO     | Got difference for account updates
+2026-08-06 17:06:51 | INFO     | ⏳ Còn lại: 15h 39m 00s
+2026-08-06 17:07:51 | INFO     | ⏳ Còn lại: 15h 38m 00s
+2026-08-06 17:08:51 | INFO     | ⏳ Còn lại: 15h 37m 00s
+2026-08-06 17:09:51 | INFO     | ⏳ Còn lại: 15h 36m 00s
+2026-08-06 17:10:51 | INFO     | ⏳ Còn lại: 15h 35m 00s
+2026-08-06 17:11:52 | INFO     | ⏳ Còn lại: 15h 34m 00s
+2026-08-06 17:12:49 | INFO     | Got difference for channel 3836513948 updates
+2026-08-06 17:12:52 | INFO     | ⏳ Còn lại: 15h 33m 00s
+2026-08-06 17:13:52 | INFO     | ⏳ Còn lại: 15h 32m 00s
+2026-08-06 17:14:52 | INFO     | ⏳ Còn lại: 15h 31m 00s
+2026-08-06 17:15:52 | INFO     | ⏳ Còn lại: 15h 30m 00s
+2026-08-06 17:16:52 | INFO     | ⏳ Còn lại: 15h 29m 00s
+2026-08-06 17:17:52 | INFO     | ⏳ Còn lại: 15h 28m 00s
+2026-08-06 17:18:52 | INFO     | ⏳ Còn lại: 15h 27m 00s
+2026-08-06 17:19:52 | INFO     | ⏳ Còn lại: 15h 26m 00s
+2026-08-06 17:20:52 | INFO     | ⏳ Còn lại: 15h 25m 00s
+2026-08-06 17:21:52 | INFO     | ⏳ Còn lại: 15h 24m 00s
+2026-08-06 17:22:52 | INFO     | ⏳ Còn lại: 15h 23m 00s
+2026-08-06 17:23:52 | INFO     | ⏳ Còn lại: 15h 22m 00s
+2026-08-06 17:24:52 | INFO     | ⏳ Còn lại: 15h 21m 00s
+2026-08-06 17:25:52 | INFO     | ⏳ Còn lại: 15h 20m 00s
+2026-08-06 17:26:52 | INFO     | ⏳ Còn lại: 15h 19m 00s
+2026-08-06 17:27:52 | INFO     | ⏳ Còn lại: 15h 18m 00s
+2026-08-06 17:28:52 | INFO     | ⏳ Còn lại: 15h 17m 00s
+2026-08-06 17:29:52 | INFO     | ⏳ Còn lại: 15h 16m 00s
+2026-08-06 17:30:52 | INFO     | ⏳ Còn lại: 15h 15m 00s
+2026-08-06 17:31:52 | INFO     | ⏳ Còn lại: 15h 14m 00s
+2026-08-06 17:32:52 | INFO     | ⏳ Còn lại: 15h 13m 00s
+2026-08-06 17:33:52 | INFO     | ⏳ Còn lại: 15h 12m 00s
+2026-08-06 17:34:52 | INFO     | ⏳ Còn lại: 15h 11m 00s
+2026-08-06 17:35:52 | INFO     | ⏳ Còn lại: 15h 10m 00s
+2026-08-06 17:36:52 | INFO     | ⏳ Còn lại: 15h 09m 00s
+2026-08-06 17:37:52 | INFO     | ⏳ Còn lại: 15h 08m 00s
+2026-08-06 17:38:52 | INFO     | ⏳ Còn lại: 15h 07m 00s
+2026-08-06 17:39:52 | INFO     | ⏳ Còn lại: 15h 06m 00s
+2026-08-06 17:40:25 | INFO     | Got difference for channel 2678824459 updates
+2026-08-06 17:40:52 | INFO     | ⏳ Còn lại: 15h 05m 00s
+2026-08-06 17:41:52 | INFO     | ⏳ Còn lại: 15h 04m 00s
+2026-08-06 17:42:52 | INFO     | ⏳ Còn lại: 15h 03m 00s
+2026-08-06 17:43:52 | INFO     | ⏳ Còn lại: 15h 02m 00s
+2026-08-06 17:44:52 | INFO     | ⏳ Còn lại: 15h 01m 00s
+2026-08-06 17:45:52 | INFO     | ⏳ Còn lại: 15h 00m 00s
+2026-08-06 17:46:52 | INFO     | ⏳ Còn lại: 14h 59m 00s
+2026-08-06 17:47:52 | INFO     | ⏳ Còn lại: 14h 58m 00s
+2026-08-06 17:48:53 | INFO     | ⏳ Còn lại: 14h 57m 00s
+2026-08-06 17:49:53 | INFO     | ⏳ Còn lại: 14h 56m 00s
+2026-08-06 17:50:07 | INFO     | Got difference for channel 1635170908 updates
+2026-08-06 17:50:53 | INFO     | ⏳ Còn lại: 14h 55m 00s
+2026-08-06 17:51:53 | INFO     | ⏳ Còn lại: 14h 54m 00s
+2026-08-06 17:52:53 | INFO     | ⏳ Còn lại: 14h 53m 00s
+2026-08-06 17:53:53 | INFO     | ⏳ Còn lại: 14h 52m 00s
+2026-08-06 17:54:53 | INFO     | ⏳ Còn lại: 14h 51m 00s
+2026-08-06 17:55:53 | INFO     | ⏳ Còn lại: 14h 50m 00s
+2026-08-06 17:56:53 | INFO     | ⏳ Còn lại: 14h 49m 00s
+2026-08-06 17:57:53 | INFO     | ⏳ Còn lại: 14h 48m 00s
+2026-08-06 17:58:53 | INFO     | ⏳ Còn lại: 14h 47m 00s
+2026-08-06 17:59:53 | INFO     | ⏳ Còn lại: 14h 46m 00s
+2026-08-06 18:00:53 | INFO     | ⏳ Còn lại: 14h 45m 00s
+2026-08-06 18:01:53 | INFO     | ⏳ Còn lại: 14h 44m 00s
+2026-08-06 18:02:53 | INFO     | ⏳ Còn lại: 14h 43m 00s
+2026-08-06 18:03:53 | INFO     | ⏳ Còn lại: 14h 42m 00s
+2026-08-06 18:04:53 | INFO     | ⏳ Còn lại: 14h 41m 00s
+2026-08-06 18:05:07 | INFO     | Got difference for channel 1635170908 updates
+2026-08-06 18:05:53 | INFO     | ⏳ Còn lại: 14h 40m 00s
+2026-08-06 18:06:53 | INFO     | ⏳ Còn lại: 14h 39m 00s
+2026-08-06 18:07:53 | INFO     | ⏳ Còn lại: 14h 38m 00s
+2026-08-06 18:08:53 | INFO     | ⏳ Còn lại: 14h 37m 00s
+2026-08-06 18:09:53 | INFO     | ⏳ Còn lại: 14h 36m 00s
+2026-08-06 18:10:53 | INFO     | ⏳ Còn lại: 14h 35m 00s
+2026-08-06 18:11:53 | INFO     | ⏳ Còn lại: 14h 34m 00s
+2026-08-06 18:12:53 | INFO     | ⏳ Còn lại: 14h 33m 00s
+2026-08-06 18:13:53 | INFO     | ⏳ Còn lại: 14h 32m 00s
+2026-08-06 18:14:53 | INFO     | ⏳ Còn lại: 14h 31m 00s
+2026-08-06 18:15:53 | INFO     | ⏳ Còn lại: 14h 30m 00s
+2026-08-06 18:16:53 | INFO     | ⏳ Còn lại: 14h 29m 00s
+2026-08-06 18:17:53 | INFO     | ⏳ Còn lại: 14h 28m 00s
+2026-08-06 18:18:53 | INFO     | ⏳ Còn lại: 14h 27m 00s
+2026-08-06 18:19:53 | INFO     | ⏳ Còn lại: 14h 26m 00s
+2026-08-06 18:20:53 | INFO     | ⏳ Còn lại: 14h 25m 00s
+2026-08-06 18:21:53 | INFO     | ⏳ Còn lại: 14h 24m 00s
+2026-08-06 18:22:53 | INFO     | ⏳ Còn lại: 14h 23m 00s
+2026-08-06 18:23:53 | INFO     | ⏳ Còn lại: 14h 22m 00s
+2026-08-06 18:24:53 | INFO     | ⏳ Còn lại: 14h 21m 00s
+2026-08-06 18:25:54 | INFO     | ⏳ Còn lại: 14h 20m 00s
+2026-08-06 18:26:54 | INFO     | ⏳ Còn lại: 14h 19m 00s
+2026-08-06 18:27:54 | INFO     | ⏳ Còn lại: 14h 18m 00s
+2026-08-06 18:28:54 | INFO     | ⏳ Còn lại: 14h 17m 00s
+2026-08-06 18:29:54 | INFO     | ⏳ Còn lại: 14h 16m 00s
+2026-08-06 18:30:54 | INFO     | ⏳ Còn lại: 14h 15m 00s
+2026-08-06 18:31:54 | INFO     | ⏳ Còn lại: 14h 14m 00s
+2026-08-06 18:32:54 | INFO     | ⏳ Còn lại: 14h 13m 00s
+2026-08-06 18:33:54 | INFO     | ⏳ Còn lại: 14h 12m 00s
+2026-08-06 18:37:57 | INFO     | ⏳ Còn lại: 14h 11m 00s
+2026-08-06 18:38:01 | INFO     | Got difference for channel 3836513948 updates
+2026-08-06 18:39:53 | INFO     | ⏳ Còn lại: 14h 10m 00s
+2026-08-06 18:40:41 | INFO     | Got difference for account updates
+2026-08-06 18:40:53 | INFO     | ⏳ Còn lại: 14h 09m 00s
+2026-08-06 18:41:53 | INFO     | ⏳ Còn lại: 14h 08m 00s
+2026-08-06 18:42:53 | INFO     | ⏳ Còn lại: 14h 07m 00s
+2026-08-06 18:43:53 | INFO     | ⏳ Còn lại: 14h 06m 00s
+2026-08-06 18:44:53 | INFO     | ⏳ Còn lại: 14h 05m 00s
+2026-08-06 18:45:53 | INFO     | ⏳ Còn lại: 14h 04m 00s
+2026-08-06 18:46:53 | INFO     | ⏳ Còn lại: 14h 03m 00s
+2026-08-06 18:47:53 | INFO     | ⏳ Còn lại: 14h 02m 00s
+2026-08-06 18:48:54 | INFO     | ⏳ Còn lại: 14h 01m 00s
+2026-08-06 18:49:54 | INFO     | ⏳ Còn lại: 14h 00m 00s
+2026-08-06 18:50:54 | INFO     | ⏳ Còn lại: 13h 59m 00s
+2026-08-06 18:51:54 | INFO     | ⏳ Còn lại: 13h 58m 00s
+2026-08-06 18:52:54 | INFO     | ⏳ Còn lại: 13h 57m 00s
+2026-08-06 18:53:54 | INFO     | ⏳ Còn lại: 13h 56m 00s
+2026-08-06 18:54:30 | INFO     | Got difference for channel 1705040107 updates
+2026-08-06 18:54:54 | INFO     | ⏳ Còn lại: 13h 55m 00s
+2026-08-06 18:55:54 | INFO     | ⏳ Còn lại: 13h 54m 00s
+2026-08-06 18:56:54 | INFO     | ⏳ Còn lại: 13h 53m 00s
+2026-08-06 18:57:54 | INFO     | ⏳ Còn lại: 13h 52m 00s
+2026-08-06 18:58:54 | INFO     | ⏳ Còn lại: 13h 51m 00s
+2026-08-06 18:59:54 | INFO     | ⏳ Còn lại: 13h 50m 00s
+2026-08-06 19:00:54 | INFO     | ⏳ Còn lại: 13h 49m 00s
+2026-08-06 19:01:54 | INFO     | ⏳ Còn lại: 13h 48m 00s
+2026-08-06 19:02:54 | INFO     | ⏳ Còn lại: 13h 47m 00s
+2026-08-06 19:03:54 | INFO     | ⏳ Còn lại: 13h 46m 00s
+2026-08-06 19:04:54 | INFO     | ⏳ Còn lại: 13h 45m 00s
+2026-08-06 19:05:54 | INFO     | ⏳ Còn lại: 13h 44m 00s
+2026-08-06 19:06:54 | INFO     | ⏳ Còn lại: 13h 43m 00s
+2026-08-06 19:07:54 | INFO     | ⏳ Còn lại: 13h 42m 00s
+2026-08-06 19:08:54 | INFO     | ⏳ Còn lại: 13h 41m 00s
+2026-08-06 19:09:07 | INFO     | Got difference for channel 1635170908 updates
+2026-08-06 19:09:54 | INFO     | ⏳ Còn lại: 13h 40m 00s
+2026-08-06 19:10:54 | INFO     | ⏳ Còn lại: 13h 39m 00s
+2026-08-06 19:11:54 | INFO     | ⏳ Còn lại: 13h 38m 00s
+2026-08-06 19:12:54 | INFO     | ⏳ Còn lại: 13h 37m 00s
+2026-08-06 19:14:30 | INFO     | ⏳ Còn lại: 13h 36m 00s
+2026-08-06 19:20:56 | INFO     | ⏳ Còn lại: 13h 35m 00s
+2026-08-06 19:24:01 | INFO     | ⏳ Còn lại: 13h 34m 00s
+2026-08-06 19:25:01 | INFO     | ⏳ Còn lại: 13h 33m 00s
+2026-08-06 19:26:01 | INFO     | ⏳ Còn lại: 13h 32m 00s
+2026-08-06 19:30:39 | INFO     | ⏳ Còn lại: 13h 31m 00s
+2026-08-06 19:31:17 | INFO     | Got difference for channel 2234645333 updates
+2026-08-06 19:31:39 | INFO     | ⏳ Còn lại: 13h 30m 00s
+2026-08-06 19:32:39 | INFO     | ⏳ Còn lại: 13h 29m 00s
+2026-08-06 19:36:13 | INFO     | ⏳ Còn lại: 13h 28m 00s
+2026-08-06 19:40:01 | INFO     | ⏳ Còn lại: 13h 27m 00s
+2026-08-06 19:42:59 | INFO     | ⏳ Còn lại: 13h 26m 00s
+2026-08-06 19:45:57 | INFO     | ⏳ Còn lại: 13h 25m 00s
+2026-08-06 19:49:29 | INFO     | ⏳ Còn lại: 13h 24m 00s
+2026-08-06 19:50:36 | INFO     | ⏳ Còn lại: 13h 23m 00s
+2026-08-06 19:51:36 | INFO     | ⏳ Còn lại: 13h 22m 00s
+2026-08-06 19:52:36 | INFO     | ⏳ Còn lại: 13h 21m 00s
+2026-08-06 19:53:36 | INFO     | ⏳ Còn lại: 13h 20m 00s
+2026-08-06 19:54:36 | INFO     | ⏳ Còn lại: 13h 19m 00s
+2026-08-06 19:55:36 | INFO     | ⏳ Còn lại: 13h 18m 00s
+2026-08-06 19:56:36 | INFO     | ⏳ Còn lại: 13h 17m 00s
+2026-08-06 19:57:36 | INFO     | ⏳ Còn lại: 13h 16m 00s
+2026-08-06 19:58:36 | INFO     | ⏳ Còn lại: 13h 15m 00s
+2026-08-06 19:59:36 | INFO     | ⏳ Còn lại: 13h 14m 00s
+2026-08-06 20:00:36 | INFO     | ⏳ Còn lại: 13h 13m 00s
+2026-08-06 20:01:36 | INFO     | ⏳ Còn lại: 13h 12m 00s
+2026-08-06 20:02:36 | INFO     | ⏳ Còn lại: 13h 11m 00s
+2026-08-06 20:03:36 | INFO     | ⏳ Còn lại: 13h 10m 00s
+2026-08-06 20:04:36 | INFO     | ⏳ Còn lại: 13h 09m 00s
+2026-08-06 20:05:36 | INFO     | ⏳ Còn lại: 13h 08m 00s
+2026-08-06 19:55:31 | WARNING  | Server sent a very new message with ID 7670904266796058625, ignoring (see FAQ for details)
+2026-08-06 19:55:51 | INFO     | ⏳ Còn lại: 13h 07m 00s
+2026-08-06 19:56:31 | INFO     | Closing current connection to begin reconnect...
+2026-08-06 19:56:31 | INFO     | Connecting to 91.108.56.114:443/TcpFull...
+2026-08-06 19:56:31 | INFO     | Connection to 91.108.56.114:443/TcpFull complete!
+2026-08-06 19:56:31 | INFO     | System clock is wrong, set time offset to 647s
+2026-08-06 19:56:31 | INFO     | System clock is wrong, set time offset to 647s
+2026-08-06 19:56:51 | INFO     | ⏳ Còn lại: 13h 06m 00s
+2026-08-06 19:57:32 | INFO     | Got difference for channel 1635170908 updates
+2026-08-06 19:57:51 | INFO     | ⏳ Còn lại: 13h 05m 00s
+2026-08-06 19:58:51 | INFO     | ⏳ Còn lại: 13h 04m 00s
+2026-08-06 19:59:51 | INFO     | ⏳ Còn lại: 13h 03m 00s
+2026-08-06 20:00:51 | INFO     | ⏳ Còn lại: 13h 02m 00s
+2026-08-06 20:01:51 | INFO     | ⏳ Còn lại: 13h 01m 00s
+2026-08-06 20:02:51 | INFO     | ⏳ Còn lại: 13h 00m 00s
+2026-08-06 20:03:51 | INFO     | ⏳ Còn lại: 12h 59m 00s
+2026-08-06 20:04:51 | INFO     | ⏳ Còn lại: 12h 58m 00s
+2026-08-06 20:05:51 | INFO     | ⏳ Còn lại: 12h 57m 00s
+2026-08-06 20:06:51 | INFO     | ⏳ Còn lại: 12h 56m 00s
+2026-08-06 20:07:51 | INFO     | ⏳ Còn lại: 12h 55m 00s
+2026-08-06 20:08:38 | INFO     | Got difference for account updates
+2026-08-06 20:08:51 | INFO     | ⏳ Còn lại: 12h 54m 00s
+2026-08-06 20:09:51 | INFO     | ⏳ Còn lại: 12h 53m 00s
+2026-08-06 20:10:51 | INFO     | ⏳ Còn lại: 12h 52m 00s
+2026-08-06 20:11:51 | INFO     | ⏳ Còn lại: 12h 51m 00s
+2026-08-06 20:12:51 | INFO     | ⏳ Còn lại: 12h 50m 00s
+2026-08-06 20:13:51 | INFO     | ⏳ Còn lại: 12h 49m 00s
+2026-08-06 20:14:51 | INFO     | ⏳ Còn lại: 12h 48m 00s
+2026-08-06 20:15:51 | INFO     | ⏳ Còn lại: 12h 47m 00s
+2026-08-06 20:16:51 | INFO     | ⏳ Còn lại: 12h 46m 00s
+2026-08-06 20:17:31 | INFO     | Got difference for channel 2234645333 updates
+2026-08-06 20:17:51 | INFO     | ⏳ Còn lại: 12h 45m 00s
+2026-08-06 20:18:51 | INFO     | ⏳ Còn lại: 12h 44m 00s
+2026-08-06 20:19:51 | INFO     | ⏳ Còn lại: 12h 43m 00s
+2026-08-06 20:20:51 | INFO     | ⏳ Còn lại: 12h 42m 00s
+2026-08-06 20:21:51 | INFO     | ⏳ Còn lại: 12h 41m 00s
+2026-08-06 20:22:51 | INFO     | ⏳ Còn lại: 12h 40m 00s
+2026-08-12 11:12:30 | INFO     | ==================================================
+2026-08-12 11:12:30 | INFO     | Telegram Auto Message Scheduler khởi động
+2026-08-12 11:12:30 | INFO     | ==================================================
+2026-08-12 11:12:30 | INFO     | Đang tạo / kết nối Telegram client...
+2026-08-12 11:12:30 | INFO     | Connecting to 91.108.56.114:443/TcpFull...
+2026-08-12 11:12:30 | INFO     | Connection to 91.108.56.114:443/TcpFull complete!
+2026-08-12 11:12:31 | INFO     | Đã có session hợp lệ. Bỏ qua đăng nhập.
+2026-08-12 11:12:31 | INFO     | Đang chạy với tài khoản: ☠︎︎𝑯𝒖̛𝒏𝒈_𝑶𝒇𝒇𝒑𝒚𝒔𝒐♚ (@Hungoffpyso)
+2026-08-12 11:12:31 | INFO     | Bắt đầu scheduler | Bot: @tuongtacmxh36_bot | Interval: 24h
+2026-08-12 11:12:31 | INFO     | Nội dung: /daily
+2026-08-12 11:12:32 | INFO     | Đang gửi tin nhắn...
+2026-08-12 11:12:32 | INFO     | Đã gửi thành công tới @tuongtacmxh36_bot: /daily
+2026-08-12 11:12:32 | INFO     | Gửi thành công lúc 2026-08-12 11:12:32
+2026-08-12 11:12:32 | INFO     | Bắt đầu chờ 24 giờ đến lần gửi tiếp theo...
+2026-08-12 11:12:32 | INFO     | ⏳ Còn lại: 24h 00m 00s
+2026-08-12 11:12:43 | INFO     | Scheduler bị hủy.
+2026-08-12 11:12:43 | INFO     | Disconnecting from 91.108.56.114:443/TcpFull...
+2026-08-12 11:12:43 | INFO     | Disconnection from 91.108.56.114:443/TcpFull complete!
+2026-08-12 11:12:46 | INFO     | Chuẩn bị vòng lặp khởi động lại...
+2026-08-12 11:12:46 | INFO     | Đang tạo / kết nối Telegram client...
+2026-08-12 11:12:46 | INFO     | Connecting to 91.108.56.114:443/TcpFull...
+2026-08-12 11:12:46 | INFO     | Connection to 91.108.56.114:443/TcpFull complete!
+2026-08-12 11:12:47 | INFO     | Đã có session hợp lệ. Bỏ qua đăng nhập.
+2026-08-12 11:12:47 | INFO     | Đang chạy với tài khoản: ☠︎︎𝑯𝒖̛𝒏𝒈_𝑶𝒇𝒇𝒑𝒚𝒔𝒐♚ (@Hungoffpyso)
+2026-08-12 11:12:47 | INFO     | Bắt đầu scheduler | Bot: @tuongtacmxh36_bot | Interval: 24h
+2026-08-12 11:12:47 | INFO     | Nội dung: /daily
+2026-08-12 11:12:47 | INFO     | Chưa đến giờ. Lần gửi tiếp theo: 2026-08-13 11:12:32
+2026-08-12 11:12:47 | INFO     | ⏳ Còn lại: 23h 59m 44s
+2026-08-12 11:12:53 | INFO     | Scheduler bị hủy.
+2026-08-12 11:12:53 | INFO     | Disconnecting from 91.108.56.114:443/TcpFull...
+2026-08-12 11:12:53 | INFO     | Disconnection from 91.108.56.114:443/TcpFull complete!
+2026-08-12 11:12:56 | ERROR    | Task was destroyed but it is pending!
+task: <Task cancelling name='Task-1' coro=<main() done, defined at /storage/emulated/0/Download/bot/main.py:513> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at /data/data/com.termux/files/usr/lib/python3.14/asyncio/tasks.py:812]>
+2026-08-23 01:50:15 | INFO     | ==================================================
+2026-08-23 01:50:15 | INFO     | Telegram Auto Message Scheduler khởi động
+2026-08-23 01:50:15 | INFO     | ==================================================
+2026-08-23 01:50:15 | INFO     | Đang tạo / kết nối Telegram client...
+2026-08-23 01:50:15 | INFO     | Connecting to 91.108.56.114:443/TcpFull...
+2026-08-23 01:50:16 | INFO     | Connection to 91.108.56.114:443/TcpFull complete!
+2026-08-23 01:50:16 | INFO     | Chưa đăng nhập. Bắt đầu quá trình đăng nhập...
+2026-08-23 01:50:27 | ERROR    | Lỗi nghiêm trọng không phải mạng: 
+Traceback (most recent call last):
+  File "/storage/emulated/0/Download/bot/main.py", line 531, in main
+    client = await create_client(api_id, api_hash)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/emulated/0/Download/bot/main.py", line 195, in create_client
+    phone = input("Nhập số điện thoại (kèm mã quốc gia, ví dụ +849xxxxxxxx): ").strip()
+            ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError
+2026-08-23 01:50:27 | INFO     | Đợi 30 giây rồi thử khởi động lại...
+2026-08-23 01:50:31 | INFO     | Chuẩn bị vòng lặp khởi động lại...
+2026-08-28 01:32:34 | INFO     | ==================================================
+2026-08-28 01:32:34 | INFO     | Telegram Auto Message Scheduler khởi động
+2026-08-28 01:32:34 | INFO     | ==================================================
+2026-08-28 01:32:34 | INFO     | Đang tạo / kết nối Telegram client...
+2026-08-28 01:32:34 | INFO     | Connecting to 91.108.56.114:443/TcpFull...
+2026-08-28 01:32:35 | INFO     | Chuẩn bị vòng lặp khởi động lại...
+2026-09-03 22:33:41 | INFO     | ==================================================
+2026-09-03 22:33:41 | INFO     | Telegram Auto Message Scheduler khởi động
+2026-09-03 22:33:41 | INFO     | ==================================================
+2026-09-03 22:33:41 | INFO     | Đang tạo / kết nối Telegram client...
+2026-09-03 22:33:41 | INFO     | Connecting to 91.108.56.114:443/TcpFull...
+2026-09-03 22:33:41 | INFO     | Connection to 91.108.56.114:443/TcpFull complete!
+2026-09-03 22:33:41 | INFO     | Chưa đăng nhập. Bắt đầu quá trình đăng nhập...
+2026-09-03 22:33:56 | ERROR    | Lỗi nghiêm trọng không phải mạng: 
+Traceback (most recent call last):
+  File "/storage/emulated/0/Download/bot/main.py", line 531, in main
+    client = await create_client(api_id, api_hash)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/emulated/0/Download/bot/main.py", line 195, in create_client
+    phone = input("Nhập số điện thoại (kèm mã quốc gia, ví dụ +849xxxxxxxx): ").strip()
+            ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError
+2026-09-03 22:33:56 | INFO     | Đợi 30 giây rồi thử khởi động lại...
+2026-09-03 22:33:56 | INFO     | Chuẩn bị vòng lặp khởi động lại...
